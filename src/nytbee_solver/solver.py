@@ -102,4 +102,28 @@ def print_hint_page(words: list[str], pangrams: list[str], letters: str, require
         print(f"{length} letters ({len(grouped[length])}): {word_list}")
 
     print("\nAlphabetical:")
-    print(", ".join(sorted(words)))
+    sorted_words = sorted(words)
+    if not sorted_words:
+        return
+
+    columns = 3
+    rows = (len(sorted_words) + columns - 1) // columns
+    column_words = [
+        sorted_words[start : start + rows]
+        for start in range(0, len(sorted_words), rows)
+    ]
+    while len(column_words) < columns:
+        column_words.append([])
+
+    column_widths = [
+        max((len(word) for word in column), default=0) for column in column_words
+    ]
+
+    for row_index in range(rows):
+        row_entries = []
+        for col_index in range(columns):
+            column = column_words[col_index]
+            word = column[row_index] if row_index < len(column) else ""
+            padding = column_widths[col_index]
+            row_entries.append(word.ljust(padding))
+        print("  ".join(entry for entry in row_entries).rstrip())
