@@ -1,8 +1,12 @@
 from __future__ import annotations
 
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
+from typing import Iterable
 from urllib.request import urlopen
+
+from nytbee_scrapper.scraper import BASE_URL, extract_answer_list, fetch_html, normalize_answer
 
 WORDLIST_URL = (
     "https://raw.githubusercontent.com/fptprdqs66-dot/nytbee_scrapper/refs/heads/main/nytbee_dict.txt"
@@ -65,6 +69,53 @@ def normalize_letters(raw_letters: str) -> tuple[str, str]:
         raise ValueError("Please provide seven unique letters (required letter first).")
 
     return required, "".join(unique_letters)
+
+
+def _flatten_letters(words: Iterable[str]) -> list[str]:
+    letters: list[str] = []
+    seen = set()
+    for word in words:
+        for char in word:
+            if char not in seen:
+                seen.add(char)
+                letters.append(char)
+    return letters
+
+
+def get_todays_puzzle_letters(base_url: str = BASE_URL) -> str:
+    today = date.today().strftime("%Y%m%d")
+    url = base_url.format(date=today)
+    try:
+        html = fetch_html(url)
+    except Exception as exc:
+        raise RuntimeError(f"Unable to fetch today's NYTBee puzzle from {url}.") from exc
+
+    answers = [normalize_answer(item) for item in extract_answer_list(html)]
+    answers = [answer for answer in answers if answer]
+    if not answers:
+        raise ValueError(f"No answers extracted for {url}.")
+
+    required_letters = set(answers[0])
+    for answer in answers[1:]:
+        required_letters &= set(answer)
+
+    if not required_letters:
+        raise ValueError("Unable to determine the required letter from today's answers.")
+
+    required_letter = sorted(required_letters)[0]
+    unique_letters = _flatten_letters(answers)
+
+    if required_letter not in unique_letters:
+        raise ValueError("Required letter not found in today's answer list.")
+
+    remaining_letters = [letter for letter in unique_letters if letter != required_letter]
+    if len(remaining_letters) != 6:
+        raise ValueError(
+            "Expected seven unique letters in today's answers; found "
+            f"{len(remaining_letters) + 1}."
+        )
+
+    return required_letter + "".join(remaining_letters)
 
 
 def solve_spelling_bee(
