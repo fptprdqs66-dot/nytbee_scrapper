@@ -1,3 +1,86 @@
-# nytbee-solver
+# nytbee-scrapper
 
-Utilities for solving the NYT Spelling Bee puzzle.
+Utilities for scraping and solving the NYT Spelling Bee puzzle.
+
+## Features
+
+- **Scraper utilities**: fetch daily answer lists from NYTBee and build word frequency data.
+- **Solver utilities**: load a wordlist, normalize puzzle letters, and generate valid words/pangrams.
+- **Notebooks included**: exploratory notebooks for scraping and testing live data.
+
+## Project layout
+
+```
+.
+├── src/
+│   ├── nytbee_scrapper/
+│   │   └── scraper.py
+│   └── nytbee_solver/
+│       └── solver.py
+├── nytbee_dict.txt
+├── notebooks (*.ipynb)
+└── pyproject.toml
+```
+
+## Installation
+
+This project uses a standard Python package layout. Install in editable mode:
+
+```bash
+python -m pip install -e .
+```
+
+## Scraper usage
+
+The scraper collects answers from `nytbee.com` pages and can build word counts across multiple days.
+
+```python
+from datetime import date
+from nytbee_scrapper.scraper import collect_word_counts
+
+word_counts, scraped_urls, failed_urls = collect_word_counts(
+    starting_date=date.today(),
+    days_to_collect=7,
+)
+
+print(f"Collected {len(word_counts)} unique words")
+print(f"Failed URLs: {failed_urls}")
+```
+
+## Solver usage
+
+The solver loads a wordlist and finds valid Spelling Bee words for a set of letters.
+The required letter should be first in the input string.
+
+```python
+from nytbee_solver.solver import solve_spelling_bee
+
+words, pangrams, letters, required = solve_spelling_bee("aregntp")
+print(f"Required letter: {required}")
+print(f"Total words: {len(words)}")
+print(f"Pangrams: {pangrams}")
+```
+
+To infer today's puzzle letters from the NYTBee answer list:
+
+```python
+from nytbee_solver.solver import get_todays_puzzle_letters
+
+letters = get_todays_puzzle_letters()
+print(letters)
+```
+
+## Wordlist notes
+
+The solver defaults to a cached wordlist at `~/.cache/nytbee_solver/nytbee_dict.txt`.
+If the file does not exist, it downloads the canonical wordlist from the repository.
+You can pass a custom wordlist path to `solve_spelling_bee` when needed.
+
+## Development
+
+- Python 3.9+ recommended.
+- Notebooks in the repository showcase scraping experiments and validation checks.
+
+## License
+
+MIT
