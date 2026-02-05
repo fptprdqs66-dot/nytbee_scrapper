@@ -84,3 +84,21 @@ You can pass a custom wordlist path to `solve_spelling_bee` when needed.
 ## License
 
 MIT
+
+## JavaScript browser shortcut (auto-type today's answers)
+
+Use `shortcuts/nytbee-autotype-shortcut.js` as a console snippet or bookmarklet helper.
+
+### How to run
+
+1. Open the NYT Spelling Bee game in your browser.
+2. Click into the word input so it has focus.
+3. Paste the script into the browser DevTools console and run it.
+
+The shortcut fetches today's answer page from `nytbee.com`, extracts the main answer list,
+and types each answer followed by Enter into the focused input.
+
+### Typing speed
+
+- Typing is intentionally fast.
+- Keystrokes are delayed by `10 ms` between characters and submissions so the game can register input.
