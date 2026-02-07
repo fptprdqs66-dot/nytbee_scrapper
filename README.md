@@ -1,6 +1,6 @@
 # nytbee-scrapper
 
-Utilities for scraping and solving the NYT Spelling Bee puzzle.
+Scrappy little utilities for scraping and solving the NYT Spelling Bee puzzle.
 
 ## Features
 
