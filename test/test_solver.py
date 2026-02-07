@@ -38,10 +38,13 @@ class TestSolverLogic(unittest.TestCase):
             solver.normalize_letters("abc")
 
     def test_format_spelling_bee_grid(self) -> None:
-        grid = solver._format_spelling_bee_grid("abcdefg", "a")
+        words = ["alpha", "able", "baker", "badge", "bead"]
+        grid = solver._format_spelling_bee_grid(words)
+        self.assertIn("5", grid)
+        self.assertIn("4", grid)
         self.assertIn("A", grid)
         self.assertIn("B", grid)
-        self.assertIn("G", grid)
+        self.assertIn("Total", grid)
 
     def test_get_todays_puzzle_letters_from_answers(self) -> None:
         html = """
@@ -100,6 +103,8 @@ class TestSolverLogic(unittest.TestCase):
         self.assertIn("NYT Spelling Bee Hint Page", output)
         self.assertIn("Letters:", output)
         self.assertIn("Total words:", output)
+        self.assertIn("Pangrams:", output)
+        self.assertIn("Spelling Bee Grid:", output)
 
 
 if __name__ == "__main__":

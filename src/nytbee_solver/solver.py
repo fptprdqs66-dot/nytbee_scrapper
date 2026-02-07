@@ -82,26 +82,54 @@ def _flatten_letters(words: Iterable[str]) -> list[str]:
     return letters
 
 
-def _format_spelling_bee_grid(letters: str, required: str) -> str:
-    """Return an ASCII table that mirrors the NYT Spelling Bee letter layout."""
-    outer_letters = [letter for letter in letters if letter != required]
-    if len(outer_letters) != 6:
-        raise ValueError("Spelling Bee grid requires six outer letters and one center letter.")
+def _format_spelling_bee_grid(words: list[str]) -> str:
+    """Return a summary table grouped by starting letter and word length."""
+    counts: dict[str, dict[int, int]] = defaultdict(lambda: defaultdict(int))
+    for word in words:
+        if not word:
+            continue
+        counts[word[0]][len(word)] += 1
 
-    grid_rows = [
-        [outer_letters[0].upper(), "", outer_letters[1].upper()],
-        [outer_letters[2].upper(), required.upper(), outer_letters[3].upper()],
-        [outer_letters[4].upper(), "", outer_letters[5].upper()],
-    ]
+    row_letters = sorted(counts)
+    col_lengths = sorted({length for letter_counts in counts.values() for length in letter_counts})
 
-    cell_width = 3
-    horizontal = f"+{'-' * cell_width}+{'-' * cell_width}+{'-' * cell_width}+"
-    grid_lines = [horizontal]
-    for row in grid_rows:
-        row_cells = [cell.center(cell_width) for cell in row]
-        grid_lines.append(f"|{row_cells[0]}|{row_cells[1]}|{row_cells[2]}|")
-        grid_lines.append(horizontal)
-    return "\n".join(grid_lines)
+    headers: list[str | int] = [""] + [str(length) for length in col_lengths] + ["Total"]
+    rows: list[list[str | int]] = []
+    for letter in row_letters:
+        row_counts = [counts[letter].get(length, 0) for length in col_lengths]
+        row_total = sum(row_counts)
+        rows.append([letter.upper(), *row_counts, row_total])
+
+    col_totals = [sum(counts[letter].get(length, 0) for letter in row_letters) for length in col_lengths]
+    grand_total = sum(col_totals)
+    rows.append(["Total", *col_totals, grand_total])
+
+    columns = list(zip(headers, *rows))
+    col_widths = [max(len(str(cell)) for cell in column) for column in columns]
+
+    def format_row(row: list[str | int]) -> str:
+        formatted_cells = []
+        for index, (cell, width) in enumerate(zip(row, col_widths)):
+            cell_text = str(cell)
+            formatted_cells.append(cell_text.ljust(width) if index == 0 else cell_text.rjust(width))
+        return " | ".join(formatted_cells)
+
+    separator = "-+-".join("-" * width for width in col_widths)
+    lines = [format_row(headers), separator]
+    lines.extend(format_row(row) for row in rows)
+    return "\n".join(lines)
+
+
+def _has_bingo(words: list[str], letters: str) -> bool:
+    first_letters = {word[0] for word in words if word}
+    return set(letters) <= first_letters
+
+
+def _count_perfect_pangrams(pangrams: list[str], letters: str) -> int:
+    unique_letters = set(letters)
+    return sum(
+        1 for word in pangrams if set(word) == unique_letters and len(word) == len(unique_letters)
+    )
 
 
 def get_todays_puzzle_letters(base_url: str = BASE_URL) -> str:
@@ -159,13 +187,26 @@ def solve_spelling_bee(
 
 
 def print_hint_page(words: list[str], pangrams: list[str], letters: str, required: str) -> None:
+    """Print a hint page summary for the provided Spelling Bee solution list."""
     print("NYT Spelling Bee Hint Page")
     print("-" * 30)
     print(f"Letters: {', '.join(letters)} (required: {required})")
+
+    total_words = len(words)
+    perfect_pangrams = _count_perfect_pangrams(pangrams, letters)
+    print(f"Total words: {total_words}")
+    if pangrams:
+        pangram_summary = f"Pangrams: {len(pangrams)}"
+        if perfect_pangrams:
+            pangram_summary += f" (perfect: {perfect_pangrams})"
+        print(pangram_summary)
+    else:
+        print("Pangrams: 0")
+    if _has_bingo(words, letters):
+        print("BINGO")
+
     print("\nSpelling Bee Grid:")
-    print(_format_spelling_bee_grid(letters, required))
-    print(f"Total words: {len(words)}")
-    print(f"Pangrams ({len(pangrams)}): {', '.join(pangrams) if pangrams else 'None'}")
+    print(_format_spelling_bee_grid(words))
 
     grouped: dict[int, list[str]] = defaultdict(list)
     for word in words:
