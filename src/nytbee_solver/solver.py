@@ -243,3 +243,11 @@ def print_hint_page(words: list[str], pangrams: list[str], letters: str, require
             padding = column_widths[col_index]
             row_entries.append(word.ljust(padding))
         print("  ".join(entry for entry in row_entries).rstrip())
+
+
+def run_today_hint_page() -> str:
+    """Fetch today's letters, solve the puzzle, and print the hint page."""
+    letters = get_todays_puzzle_letters()
+    words, pangrams, cleaned_letters, required = solve_spelling_bee(letters)
+    print_hint_page(words, pangrams, cleaned_letters, required)
+    return letters
