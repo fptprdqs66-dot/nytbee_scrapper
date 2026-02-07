@@ -82,6 +82,28 @@ def _flatten_letters(words: Iterable[str]) -> list[str]:
     return letters
 
 
+def _format_spelling_bee_grid(letters: str, required: str) -> str:
+    """Return an ASCII table that mirrors the NYT Spelling Bee letter layout."""
+    outer_letters = [letter for letter in letters if letter != required]
+    if len(outer_letters) != 6:
+        raise ValueError("Spelling Bee grid requires six outer letters and one center letter.")
+
+    grid_rows = [
+        [outer_letters[0].upper(), "", outer_letters[1].upper()],
+        [outer_letters[2].upper(), required.upper(), outer_letters[3].upper()],
+        [outer_letters[4].upper(), "", outer_letters[5].upper()],
+    ]
+
+    cell_width = 3
+    horizontal = f"+{'-' * cell_width}+{'-' * cell_width}+{'-' * cell_width}+"
+    grid_lines = [horizontal]
+    for row in grid_rows:
+        row_cells = [cell.center(cell_width) for cell in row]
+        grid_lines.append(f"|{row_cells[0]}|{row_cells[1]}|{row_cells[2]}|")
+        grid_lines.append(horizontal)
+    return "\n".join(grid_lines)
+
+
 def get_todays_puzzle_letters(base_url: str = BASE_URL) -> str:
     today = date.today().strftime("%Y%m%d")
     url = base_url.format(date=today)
@@ -140,6 +162,8 @@ def print_hint_page(words: list[str], pangrams: list[str], letters: str, require
     print("NYT Spelling Bee Hint Page")
     print("-" * 30)
     print(f"Letters: {', '.join(letters)} (required: {required})")
+    print("\nSpelling Bee Grid:")
+    print(_format_spelling_bee_grid(letters, required))
     print(f"Total words: {len(words)}")
     print(f"Pangrams ({len(pangrams)}): {', '.join(pangrams) if pangrams else 'None'}")
 
