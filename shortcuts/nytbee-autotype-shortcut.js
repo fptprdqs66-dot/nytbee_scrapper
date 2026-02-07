@@ -1,1 +1,124 @@
-(async()=>{const d=10,s=t=>new Promise(r=>setTimeout(r,t)),n=()=>{let a=new Date();return`${a.getFullYear()}${String(a.getMonth()+1).padStart(2,'0')}${String(a.getDate()).padStart(2,'0')}`},u=`https://nytbee.com/Bee_${n()}.html`,f=async()=>{try{let a=await fetch(u,{credentials:'omit'});if(!a.ok)throw new Error(`NYTBee responded with status ${a.status}`);return await a.text()}catch(e){let a=await fetch(`https://r.jina.ai/http://nytbee.com/Bee_${n()}.html`,{credentials:'omit'});if(!a.ok)throw new Error(`Unable to fetch NYTBee answers directly (${e}) or via proxy (${a.status}).`);return await a.text()}},x=h=>[...new Set([...new DOMParser().parseFromString(h,'text/html').querySelectorAll('#main-answer-list li')].map(a=>(a.textContent||'').trim().toLowerCase().replace(/[^a-z]/g,'')).filter(a=>a.length))],t=document.activeElement,i=t instanceof HTMLInputElement||t instanceof HTMLTextAreaElement,c=!!t?.isContentEditable;if(!t||(!i&&!c))throw new Error('Focus the game input field before running this shortcut.');const k=(a,b)=>t.dispatchEvent(new KeyboardEvent(a,{key:b,bubbles:!0,cancelable:!0})),m=a=>{if(i){let b=t.selectionStart??t.value.length,e=t.selectionEnd??t.value.length;t.value=`${t.value.slice(0,b)}${a}${t.value.slice(e)}`;t.selectionStart=t.selectionEnd=b+a.length;t.dispatchEvent(new InputEvent('input',{bubbles:!0,data:a,inputType:'insertText'}));return}if(c)document.execCommand('insertText',!1,a)},p=()=>{k('keydown','Enter');if(i){t.dispatchEvent(new InputEvent('input',{bubbles:!0,data:null,inputType:'insertLineBreak'}));t.value=''}else if(c)document.execCommand('insertParagraph',!1);k('keyup','Enter')},w=async a=>{for(let b of a)k('keydown',b),k('keypress',b),m(b),k('keyup',b),await s(d);p();await s(d)},h=await f(),a=x(h);if(!a.length)throw new Error('No answers were extracted from the NYTBee page.');console.log(`Typing ${a.length} answers from ${u}`);for(let b of a)await w(b);console.log('Finished typing all answers.')})();
+/**
+ * NYTBee auto-type shortcut.
+ *
+ * Run this in the browser console (or wrap as a bookmarklet) while the cursor
+ * is focused in the Spelling Bee input field. It fetches today's answers from
+ * nytbee.com, then types each answer followed by Enter.
+ */
+(async () => {
+  const KEY_DELAY_MS = 10;
+
+  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+  const formatTodayDate = () => {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const day = String(now.getDate()).padStart(2, '0');
+    return `${year}${month}${day}`;
+  };
+
+  const answerPageUrl = `https://nytbee.com/Bee_${formatTodayDate()}.html`;
+
+  const fetchAnswerPage = async () => {
+    try {
+      const response = await fetch(answerPageUrl, { credentials: 'omit' });
+      if (!response.ok) {
+        throw new Error(`NYTBee responded with status ${response.status}`);
+      }
+      return await response.text();
+    } catch (directFetchError) {
+      const proxyUrl = `https://r.jina.ai/http://nytbee.com/Bee_${formatTodayDate()}.html`;
+      const proxyResponse = await fetch(proxyUrl, { credentials: 'omit' });
+      if (!proxyResponse.ok) {
+        throw new Error(
+          `Unable to fetch NYTBee answers directly (${directFetchError}) or via proxy (${proxyResponse.status}).`
+        );
+      }
+      return await proxyResponse.text();
+    }
+  };
+
+  const extractAnswers = (html) => {
+    const documentParser = new DOMParser();
+    const parsedDocument = documentParser.parseFromString(html, 'text/html');
+    const answerItems = [...parsedDocument.querySelectorAll('#main-answer-list li')];
+
+    const normalizedAnswers = answerItems
+      .map((item) => (item.textContent || '').trim().toLowerCase())
+      .map((answer) => answer.replace(/[^a-z]/g, ''))
+      .filter((answer) => answer.length > 0);
+
+    return [...new Set(normalizedAnswers)];
+  };
+
+  const targetElement = document.activeElement;
+  const isTextInput =
+    targetElement instanceof HTMLInputElement || targetElement instanceof HTMLTextAreaElement;
+  const isEditable = Boolean(targetElement?.isContentEditable);
+
+  if (!targetElement || (!isTextInput && !isEditable)) {
+    throw new Error('Focus the game input field before running this shortcut.');
+  }
+
+  const dispatchKeyEvent = (type, key) => {
+    const keyboardEvent = new KeyboardEvent(type, {
+      key,
+      bubbles: true,
+      cancelable: true,
+    });
+    targetElement.dispatchEvent(keyboardEvent);
+  };
+
+  const insertCharacter = (character) => {
+    if (isTextInput) {
+      const start = targetElement.selectionStart ?? targetElement.value.length;
+      const end = targetElement.selectionEnd ?? targetElement.value.length;
+      targetElement.value = `${targetElement.value.slice(0, start)}${character}${targetElement.value.slice(end)}`;
+      targetElement.selectionStart = targetElement.selectionEnd = start + character.length;
+      targetElement.dispatchEvent(new InputEvent('input', { bubbles: true, data: character, inputType: 'insertText' }));
+      return;
+    }
+
+    if (isEditable) {
+      document.execCommand('insertText', false, character);
+    }
+  };
+
+  const pressEnter = () => {
+    dispatchKeyEvent('keydown', 'Enter');
+    if (isTextInput) {
+      targetElement.dispatchEvent(new InputEvent('input', { bubbles: true, data: null, inputType: 'insertLineBreak' }));
+      targetElement.value = '';
+    } else if (isEditable) {
+      document.execCommand('insertParagraph', false);
+    }
+    dispatchKeyEvent('keyup', 'Enter');
+  };
+
+  const typeWordAndSubmit = async (word) => {
+    for (const letter of word) {
+      dispatchKeyEvent('keydown', letter);
+      dispatchKeyEvent('keypress', letter);
+      insertCharacter(letter);
+      dispatchKeyEvent('keyup', letter);
+      await sleep(KEY_DELAY_MS);
+    }
+
+    pressEnter();
+    await sleep(KEY_DELAY_MS);
+  };
+
+  const html = await fetchAnswerPage();
+  const answers = extractAnswers(html);
+
+  if (!answers.length) {
+    throw new Error('No answers were extracted from the NYTBee page.');
+  }
+
+  console.log(`Typing ${answers.length} answers from ${answerPageUrl}`);
+  for (const answer of answers) {
+    await typeWordAndSubmit(answer);
+  }
+  console.log('Finished typing all answers.');
+})();
