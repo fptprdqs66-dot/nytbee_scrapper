@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 from html.parser import HTMLParser
+import re
 from typing import Optional
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -82,8 +83,16 @@ def extract_answer_list(html: str) -> list[str]:
 
 
 def normalize_answer(answer: str) -> str:
+    """Normalize an answer list entry into a single word string."""
     normalized = answer.replace("\r", "").strip().lower()
-    return "".join(ch for ch in normalized if ch.isalpha())
+    tokens = re.findall(r"[a-z]+", normalized)
+    if len(tokens) > 1 and "pangram" in tokens[1:]:
+        pangram_index = tokens.index("pangram")
+        end_index = pangram_index
+        if end_index > 0 and tokens[end_index - 1] == "perfect":
+            end_index -= 1
+        tokens = tokens[:end_index]
+    return "".join(tokens)
 
 
 def collect_word_counts(
