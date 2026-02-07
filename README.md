@@ -30,6 +30,42 @@ This project uses a standard Python package layout. Install in editable mode:
 python -m pip install -e .
 ```
 
+## CLI usage
+
+After installation, two console scripts are available: `nytbee-scraper` and `nytbee-solver`.
+
+### `nytbee-scraper`
+
+Scrape recent NYTBee answer lists and print a summary of collected words.
+
+```bash
+nytbee-scraper --days 14
+```
+
+Arguments:
+
+- `--days`: number of days to scrape counting backwards from today (default: 30).
+
+### `nytbee-solver`
+
+Solve a puzzle from provided letters (required letter first) and print a hint page summary.
+
+```bash
+nytbee-solver aregntp
+```
+
+If you omit letters, the solver uses today's NYTBee puzzle letters:
+
+```bash
+nytbee-solver
+```
+
+Use a custom wordlist instead of the default cache:
+
+```bash
+nytbee-solver aregntp --wordlist /path/to/wordlist.txt
+```
+
 ## Scraper usage
 
 The scraper collects answers from `nytbee.com` pages and can build word counts across multiple days.
