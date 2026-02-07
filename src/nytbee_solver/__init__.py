@@ -6,6 +6,7 @@ from .solver import (
     load_words,
     normalize_letters,
     print_hint_page,
+    run_today_hint_page,
     solve_spelling_bee,
 )
 
@@ -17,5 +18,6 @@ __all__ = [
     "load_words",
     "normalize_letters",
     "print_hint_page",
+    "run_today_hint_page",
     "solve_spelling_bee",
 ]
