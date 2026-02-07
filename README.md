@@ -70,6 +70,17 @@ letters = get_todays_puzzle_letters()
 print(letters)
 ```
 
+## Solving today's puzzle end-to-end
+
+Use the solver to fetch today's letters, solve the puzzle, and print the hint page.
+
+```python
+from nytbee_solver.solver import run_today_hint_page
+
+letters = run_today_hint_page()
+print(f"Letters: {letters}")
+```
+
 ## Wordlist notes
 
 The solver defaults to a cached wordlist at `~/.cache/nytbee_solver/nytbee_dict.txt`.
