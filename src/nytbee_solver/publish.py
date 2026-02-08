@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import io
 from contextlib import redirect_stdout
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 
 from nytbee_solver.encoding import encode_terminated
@@ -51,17 +51,16 @@ def generate_daily_results(output_dir: Path, puzzle_date: date | None = None) ->
     return output_path, encoded_path
 
 
-def update_latest_summary(output_dir: Path, output_path: Path) -> Path:
-    """Write a short latest summary markdown file that points to the dated results."""
-    latest_path = output_dir / "latest.md"
-    relative_path = output_path.name
-    latest_path.write_text(
-        "# Latest Spelling Bee Results\n\n"
-        f"- Updated: {datetime.utcnow().isoformat(timespec='seconds')}Z\n"
-        f"- Results file: `{relative_path}`\n",
+def update_latest_files(output_dir: Path, output_path: Path, encoded_path: Path) -> tuple[Path, Path]:
+    """Write latest copies of the hint page and encoded output."""
+    latest_hint_path = output_dir / "latest.txt"
+    latest_encoded_path = output_dir / "latest.encoded.txt"
+    latest_hint_path.write_text(output_path.read_text(encoding="utf-8"), encoding="utf-8")
+    latest_encoded_path.write_text(
+        encoded_path.read_text(encoding="utf-8"),
         encoding="utf-8",
     )
-    return latest_path
+    return latest_hint_path, latest_encoded_path
 
 
 def main() -> None:
@@ -76,7 +75,7 @@ def main() -> None:
     args = parser.parse_args()
 
     output_path, encoded_path = generate_daily_results(args.output_dir)
-    update_latest_summary(args.output_dir, output_path)
+    update_latest_files(args.output_dir, output_path, encoded_path)
     print(f"Wrote results to {output_path}")
     print(f"Wrote encoded results to {encoded_path}")
 
