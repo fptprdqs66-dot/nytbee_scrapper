@@ -2,9 +2,11 @@ from .encoding import (
     decode_front_coded,
     decode_length_prefixed,
     decode_terminated,
+    decode_terminated_lzma,
     encode_front_coded,
     encode_length_prefixed,
     encode_terminated,
+    encode_terminated_lzma,
     evaluate_encodings,
 )
 from .solver import (
@@ -17,15 +19,18 @@ from .solver import (
     print_hint_page,
     run_today_hint_page,
     solve_spelling_bee,
+    solve_spelling_bee_terminated_lzma,
 )
 
 __all__ = [
     "decode_front_coded",
     "decode_length_prefixed",
     "decode_terminated",
+    "decode_terminated_lzma",
     "encode_front_coded",
     "encode_length_prefixed",
     "encode_terminated",
+    "encode_terminated_lzma",
     "evaluate_encodings",
     "WORDLIST_URL",
     "ensure_wordlist",
@@ -36,4 +41,5 @@ __all__ = [
     "print_hint_page",
     "run_today_hint_page",
     "solve_spelling_bee",
+    "solve_spelling_bee_terminated_lzma",
 ]

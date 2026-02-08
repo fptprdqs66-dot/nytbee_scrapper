@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 import base64
+import bz2
+import lzma
 import random
+import zlib
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -169,15 +172,14 @@ def decode_front_coded(payload: str, letters: str, required: str) -> list[str]:
 
 def encode_terminated(words: Iterable[str], letters: str, required: str) -> str:
     """Encode words as 3-bit letters with a terminator symbol."""
-    cleaned = _validate_words(words, letters, required)
-    letter_map = _build_letter_map(letters)
-    writer = BitWriter()
-    writer.write(len(cleaned), 12)
-    for word in cleaned:
-        for char in word:
-            writer.write(letter_map[char], 3)
-        writer.write(7, 3)
-    return _b64encode(writer.finish())
+    return _b64encode(_encode_terminated_bytes(words, letters, required))
+
+
+def encode_terminated_lzma(words: Iterable[str], letters: str, required: str) -> str:
+    """Encode words with terminators and LZMA-compress the payload."""
+    raw_bytes = _encode_terminated_bytes(words, letters, required)
+    compressed = lzma.compress(raw_bytes)
+    return _b64encode(compressed)
 
 
 def decode_terminated(payload: str, letters: str, required: str) -> list[str]:
@@ -197,9 +199,49 @@ def decode_terminated(payload: str, letters: str, required: str) -> list[str]:
     return _validate_words(words, letters, required)
 
 
+def decode_terminated_lzma(payload: str, letters: str, required: str) -> list[str]:
+    """Decode LZMA-compressed, terminated word payloads."""
+    compressed = _b64decode(payload)
+    raw_bytes = lzma.decompress(compressed)
+    reader = BitReader(raw_bytes)
+    total = reader.read(12)
+    words = []
+    current: list[str] = []
+    while len(words) < total:
+        value = reader.read(3)
+        if value == 7:
+            word = "".join(current)
+            words.append(word)
+            current = []
+        else:
+            current.append(letters[value])
+    return _validate_words(words, letters, required)
+
+
+def _encode_terminated_bytes(words: Iterable[str], letters: str, required: str) -> bytes:
+    cleaned = _validate_words(words, letters, required)
+    letter_map = _build_letter_map(letters)
+    writer = BitWriter()
+    writer.write(len(cleaned), 12)
+    for word in cleaned:
+        for char in word:
+            writer.write(letter_map[char], 3)
+        writer.write(7, 3)
+    return writer.finish()
+
+
 @dataclass
 class EncodingStats:
     """Capture size statistics for encoding approaches."""
+
+    method: str
+    average_chars: float
+    average_ratio: float
+
+
+@dataclass
+class CompressionStats:
+    """Capture size statistics for compression approaches."""
 
     method: str
     average_chars: float
@@ -237,6 +279,47 @@ def evaluate_encodings(
     for name, _ in methods:
         stats.append(
             EncodingStats(
+                method=name,
+                average_chars=totals[name] / sample_count,
+                average_ratio=ratios[name] / sample_count,
+            )
+        )
+    return stats
+
+
+def evaluate_terminated_compression(
+    wordlist_path: Path,
+    sample_count: int = 50,
+    seed: int = 1337,
+) -> list[CompressionStats]:
+    """Compare compressing terminated payloads with simple compressors."""
+    random.seed(seed)
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    compressors = [
+        ("terminated", lambda data: data),
+        ("terminated+zlib", zlib.compress),
+        ("terminated+bz2", bz2.compress),
+        ("terminated+lzma", lzma.compress),
+    ]
+    totals = {name: 0 for name, _ in compressors}
+    ratios = {name: 0.0 for name, _ in compressors}
+
+    for _ in range(sample_count):
+        letters = "".join(random.sample(alphabet, 7))
+        required = letters[0]
+        words, _, _, _ = solver.solve_spelling_bee(letters, wordlist_path=wordlist_path)
+        raw_bytes = _encode_terminated_bytes(words, letters, required)
+        raw_length = len(_b64encode(raw_bytes)) or 1
+        for name, compressor in compressors:
+            compressed = compressor(raw_bytes)
+            encoded = _b64encode(compressed)
+            totals[name] += len(encoded)
+            ratios[name] += len(encoded) / raw_length
+
+    stats = []
+    for name, _ in compressors:
+        stats.append(
+            CompressionStats(
                 method=name,
                 average_chars=totals[name] / sample_count,
                 average_ratio=ratios[name] / sample_count,

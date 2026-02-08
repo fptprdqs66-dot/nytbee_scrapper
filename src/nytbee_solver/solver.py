@@ -190,6 +190,19 @@ def solve_spelling_bee(
     return sorted(words), sorted(pangrams), cleaned_letters, required
 
 
+def solve_spelling_bee_terminated_lzma(
+    letters: str, wordlist_path: Path | None = None
+) -> tuple[str, list[str], list[str], str, str]:
+    """Solve the puzzle and return the LZMA-compressed terminator payload."""
+    from . import encoding
+
+    words, pangrams, cleaned_letters, required = solve_spelling_bee(
+        letters, wordlist_path=wordlist_path
+    )
+    encoded = encoding.encode_terminated_lzma(words, cleaned_letters, required)
+    return encoded, words, pangrams, cleaned_letters, required
+
+
 def print_hint_page(words: list[str], pangrams: list[str], letters: str, required: str) -> None:
     """Print a hint page summary for the provided Spelling Bee solution list."""
     print("NYT Spelling Bee Hint Page")
