@@ -1,0 +1,55 @@
+NYT Spelling Bee Daily Results
+Date: 2026-02-08
+Letters: ibelntu
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: i, b, e, l, n, t, u (required: i)
+Total words: 60
+Pangrams: 2
+
+Pangrams (bolded):
+**bulletin**, **ebullient**
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 |  6 | 7 | 8 | 9 | Total
+------+----+----+----+---+---+---+------
+B     |  4 |  4 |  2 | 1 | 3 | 0 |    14
+E     |  0 |  2 |  0 | 1 | 0 | 1 |     4
+I     |  0 |  3 |  2 | 2 | 0 | 0 |     7
+L     |  6 |  2 |  4 | 2 | 0 | 0 |    14
+N     |  2 |  0 |  3 | 0 | 1 | 0 |     6
+T     |  5 |  2 |  1 | 0 | 0 | 0 |     8
+U     |  1 |  5 |  0 | 1 | 0 | 0 |     7
+Total | 18 | 18 | 12 | 7 | 4 | 1 |    60
+
+By length:
+4 letters (18): bile, bill, bite, blin, lien, lieu, lilt, line, lint, lite, nine, nite, tile, till, tilt, tine, tint, unit
+5 letters (18): belie, bible, blini, built, elite, ennui, inlet, innie, intel, libel, linen, title, tutti, unite, unlit, untie, until, utile
+6 letters (12): billet, bitten, intent, intuit, lentil, linnet, lintel, little, nibble, nubbin, nubile, tittle
+7 letters (7): beeline, entitle, inbuilt, inutile, lenient, libelee, unbuilt
+8 letters (4): belittle, beltline, bulletin, nineteen
+9 letters (1): ebullient
+
+Alphabetical:
+beeline    innie    nine
+belie      intel    nineteen
+belittle   intent   nite
+beltline   intuit   nubbin
+bible      inutile  nubile
+bile       lenient  tile
+bill       lentil   till
+billet     libel    tilt
+bite       libelee  tine
+bitten     lien     tint
+blin       lieu     title
+blini      lilt     tittle
+built      line     tutti
+bulletin   linen    unbuilt
+ebullient  linnet   unit
+elite      lint     unite
+ennui      lintel   unlit
+entitle    lite     untie
+inbuilt    little   until
+inlet      nibble   utile
