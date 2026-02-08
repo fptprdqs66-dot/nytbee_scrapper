@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "NYTBee Helper",
+  "version": "0.1.0",
+  "description": "Finds Spelling Bee answers using a bundled wordlist.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "NYTBee Helper"
+  },
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://www.nytimes.com/puzzles/spelling-bee*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.nytimes.com/puzzles/spelling-bee*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["wordlist/nytbee_dict.txt"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
