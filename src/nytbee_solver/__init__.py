@@ -1,3 +1,12 @@
+from .encoding import (
+    decode_front_coded,
+    decode_length_prefixed,
+    decode_terminated,
+    encode_front_coded,
+    encode_length_prefixed,
+    encode_terminated,
+    evaluate_encodings,
+)
 from .solver import (
     WORDLIST_URL,
     ensure_wordlist,
@@ -11,6 +20,13 @@ from .solver import (
 )
 
 __all__ = [
+    "decode_front_coded",
+    "decode_length_prefixed",
+    "decode_terminated",
+    "encode_front_coded",
+    "encode_length_prefixed",
+    "encode_terminated",
+    "evaluate_encodings",
     "WORDLIST_URL",
     "ensure_wordlist",
     "get_default_wordlist_path",
