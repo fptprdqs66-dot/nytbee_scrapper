@@ -132,6 +132,10 @@ def _count_perfect_pangrams(pangrams: list[str], letters: str) -> int:
     )
 
 
+def _format_bold_word(word: str) -> str:
+    return f"**{word}**"
+
+
 def get_todays_puzzle_letters(base_url: str = BASE_URL) -> str:
     today = date.today().strftime("%Y%m%d")
     url = base_url.format(date=today)
@@ -200,6 +204,9 @@ def print_hint_page(words: list[str], pangrams: list[str], letters: str, require
         if perfect_pangrams:
             pangram_summary += f" (perfect: {perfect_pangrams})"
         print(pangram_summary)
+        print("\nPangrams (bolded):")
+        pangram_list = ", ".join(_format_bold_word(word) for word in sorted(pangrams))
+        print(pangram_list)
     else:
         print("Pangrams: 0")
     if _has_bingo(words, letters):
