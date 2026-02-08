@@ -176,9 +176,14 @@ def encode_terminated(words: Iterable[str], letters: str, required: str) -> str:
 
 
 def encode_terminated_lzma(words: Iterable[str], letters: str, required: str) -> str:
-    """Encode words with terminators and LZMA-compress the payload."""
+    """Encode words with terminators and LZMA-compress the payload.
+
+    The raw LZMA format is not self-describing, so the decoder must use the
+    same filter configuration.
+    """
     raw_bytes = _encode_terminated_bytes(words, letters, required)
-    compressed = lzma.compress(raw_bytes)
+    filters = [{"id": lzma.FILTER_LZMA2, "preset": 6}]
+    compressed = lzma.compress(raw_bytes, format=lzma.FORMAT_RAW, filters=filters)
     return _b64encode(compressed)
 
 
@@ -200,9 +205,14 @@ def decode_terminated(payload: str, letters: str, required: str) -> list[str]:
 
 
 def decode_terminated_lzma(payload: str, letters: str, required: str) -> list[str]:
-    """Decode LZMA-compressed, terminated word payloads."""
+    """Decode LZMA-compressed, terminated word payloads.
+
+    The raw LZMA format is not self-describing, so the decoder must use the
+    same filter configuration.
+    """
     compressed = _b64decode(payload)
-    raw_bytes = lzma.decompress(compressed)
+    filters = [{"id": lzma.FILTER_LZMA2, "preset": 6}]
+    raw_bytes = lzma.decompress(compressed, format=lzma.FORMAT_RAW, filters=filters)
     reader = BitReader(raw_bytes)
     total = reader.read(12)
     words = []
