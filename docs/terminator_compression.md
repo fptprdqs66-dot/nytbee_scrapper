@@ -9,3 +9,6 @@ Sample count: 50
 | `terminated+zlib` | 40.1 | 2.783 |
 | `terminated+bz2` | 91.9 | 9.179 |
 | `terminated+lzma` | 105.0 | 13.464 |
+
+Note: The `terminated+lzma` results now use the LZMA raw format, which removes
+container headers and checksums.
