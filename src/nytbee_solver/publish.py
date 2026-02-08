@@ -6,30 +6,49 @@ from contextlib import redirect_stdout
 from datetime import date, datetime
 from pathlib import Path
 
+from nytbee_solver.encoding import encode_terminated
 from nytbee_solver.solver import print_hint_page, solve_spelling_bee
 from nytbee_solver.solver import get_todays_puzzle_letters
 
 
-def generate_daily_results(output_dir: Path, puzzle_date: date | None = None) -> Path:
-    """Generate today's Spelling Bee results and write them to a dated file."""
-    output_dir.mkdir(parents=True, exist_ok=True)
+def _solve_daily_puzzle(
+    puzzle_date: date | None = None,
+) -> tuple[date, str, list[str], list[str], str, str]:
     resolved_date = puzzle_date or date.today()
     letters = get_todays_puzzle_letters()
     words, pangrams, cleaned_letters, required = solve_spelling_bee(letters)
+    return resolved_date, letters, words, pangrams, cleaned_letters, required
 
+
+def _render_hint_page(words: list[str], pangrams: list[str], letters: str, required: str) -> str:
     buffer = io.StringIO()
     with redirect_stdout(buffer):
-        print_hint_page(words, pangrams, cleaned_letters, required)
+        print_hint_page(words, pangrams, letters, required)
+    return buffer.getvalue()
 
+
+def generate_daily_results(output_dir: Path, puzzle_date: date | None = None) -> tuple[Path, Path]:
+    """Generate today's Spelling Bee results and write them to dated files."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    resolved_date, letters, words, pangrams, cleaned_letters, required = _solve_daily_puzzle(
+        puzzle_date
+    )
+    hint_page = _render_hint_page(words, pangrams, cleaned_letters, required)
     output_path = output_dir / f"{resolved_date.isoformat()}.txt"
     output_path.write_text(
         "NYT Spelling Bee Daily Results\n"
         f"Date: {resolved_date.isoformat()}\n"
         f"Letters: {letters}\n\n"
-        f"{buffer.getvalue()}",
+        f"{hint_page}",
         encoding="utf-8",
     )
-    return output_path
+
+    encoded_path = output_dir / f"{resolved_date.isoformat()}.encoded.txt"
+    encoded_path.write_text(
+        encode_terminated(words, cleaned_letters, required),
+        encoding="utf-8",
+    )
+    return output_path, encoded_path
 
 
 def update_latest_summary(output_dir: Path, output_path: Path) -> Path:
@@ -56,9 +75,10 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    output_path = generate_daily_results(args.output_dir)
+    output_path, encoded_path = generate_daily_results(args.output_dir)
     update_latest_summary(args.output_dir, output_path)
     print(f"Wrote results to {output_path}")
+    print(f"Wrote encoded results to {encoded_path}")
 
 
 if __name__ == "__main__":
