@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 from datetime import date
+import sys
 
 from .scraper import collect_word_counts
 
@@ -25,9 +26,26 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
 
+    def render_progress(target_date: date, current: int, total: int) -> None:
+        """Render the progress bar for the current scrape day."""
+        if total <= 0:
+            return
+        bar_width = 30
+        completed = int(bar_width * current / total)
+        bar = "#" * completed + "-" * (bar_width - completed)
+        message = (
+            f"\r[{bar}] {current}/{total} "
+            f"Processing {target_date.isoformat()}"
+        )
+        sys.stdout.write(message)
+        sys.stdout.flush()
+        if current == total:
+            sys.stdout.write("\n")
+
     word_counts, scraped_urls, failed_urls = collect_word_counts(
         starting_date=date.today(),
         days_to_collect=args.days,
+        progress_callback=render_progress,
     )
 
     print(f"Scraped {len(scraped_urls)} days.")

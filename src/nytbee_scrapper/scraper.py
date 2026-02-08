@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import date, timedelta
 from html.parser import HTMLParser
 import re
-from typing import Optional
+from typing import Callable, Optional
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -70,6 +70,7 @@ class MainAnswerListParser(HTMLParser):
 
 
 def fetch_html(url: str, timeout: int = 20, user_agent: str = USER_AGENT) -> str:
+    """Fetch HTML content from a URL."""
     request = Request(url, headers={"User-Agent": user_agent})
     with urlopen(request, timeout=timeout) as response:
         charset = response.headers.get_content_charset() or "utf-8"
@@ -77,6 +78,7 @@ def fetch_html(url: str, timeout: int = 20, user_agent: str = USER_AGENT) -> str
 
 
 def extract_answer_list(html: str) -> list[str]:
+    """Extract the answer list from NYTBee HTML."""
     parser = MainAnswerListParser()
     parser.feed(html)
     return [item.replace("\r", "") for item in parser.items]
@@ -103,7 +105,9 @@ def collect_word_counts(
     timeout: int = 20,
     existing_word_counts: Optional[dict[str, int]] = None,
     existing_scraped_urls: Optional[set[str]] = None,
+    progress_callback: Optional[Callable[[date, int, int], None]] = None,
 ) -> tuple[dict[str, int], set[str], list[tuple[str, object]]]:
+    """Collect word counts from recent NYTBee puzzles."""
     if days_to_collect < 0:
         raise ValueError("days_to_collect must be non-negative")
     word_counts = dict(existing_word_counts or {})
@@ -112,6 +116,8 @@ def collect_word_counts(
 
     for offset in range(days_to_collect):
         target_date = starting_date - timedelta(days=offset)
+        if progress_callback is not None:
+            progress_callback(target_date, offset + 1, days_to_collect)
         url = base_url.format(date=target_date.strftime("%Y%m%d"))
 
         if url in scraped_urls:
