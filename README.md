@@ -135,6 +135,8 @@ MIT
 ## JavaScript browser shortcut (auto-type today's answers)
 
 Use `shortcuts/nytbee-autotype-shortcut.js` as a console snippet or bookmarklet helper.
+For the NYT site itself, `shortcuts/nytbee-gamedata-bookmarklet.js` uses
+`window.gameData.today.answers` instead of fetching from nytbee.com.
 
 ### How to run
 
@@ -143,7 +145,8 @@ Use `shortcuts/nytbee-autotype-shortcut.js` as a console snippet or bookmarklet 
 3. Paste the script into the browser DevTools console and run it.
 
 The shortcut fetches today's answer page from `nytbee.com`, extracts the main answer list,
-and types each answer followed by Enter into the focused input.
+and types each answer followed by Enter into the focused input. The NYT-only
+bookmarklet reads the in-page game data and types the same way.
 
 ### Typing speed
 
