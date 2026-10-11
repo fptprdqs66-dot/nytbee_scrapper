@@ -1,55 +1,46 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-10
-Letters: caitorm
+Date: 2026-10-11
+Letters: baotunl
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: c, a, i, t, o, r, m (required: c)
-Total words: 64
-Pangrams: 1
-
-Pangrams (bolded):
-**aromatic**
+Letters: b, a, o, t, u, n, l (required: b)
+Total words: 49
+Pangrams: 0
 
 Spelling Bee Grid:
-      |  4 |  5 |  6 | 7 | 8 | 9 | Total
-------+----+----+----+---+---+---+------
-A     |  2 |  2 |  4 | 1 | 1 | 1 |    11
-C     | 11 | 13 |  4 | 2 | 1 | 0 |    31
-M     |  1 |  3 |  1 | 1 | 0 | 0 |     6
-O     |  1 |  0 |  0 | 0 | 0 | 0 |     1
-R     |  0 |  0 |  2 | 1 | 0 | 0 |     3
-T     |  2 |  3 |  4 | 3 | 0 | 0 |    12
-Total | 17 | 21 | 15 | 8 | 2 | 1 |    64
+      |  4 |  5 | 6 | 7 | 8 | Total
+------+----+----+---+---+---+------
+A     |  1 |  2 | 0 | 0 | 0 |     3
+B     | 20 |  5 | 9 | 2 | 0 |    36
+L     |  1 |  0 | 0 | 0 | 0 |     1
+N     |  1 |  1 | 0 | 1 | 0 |     3
+T     |  1 |  3 | 0 | 0 | 0 |     4
+U     |  0 |  1 | 0 | 0 | 1 |     2
+Total | 24 | 12 | 9 | 3 | 1 |    49
 
 By length:
-4 letters (17): acai, arco, cami, camo, cart, ciao, coat, coca, coir, coma, coot, cram, croc, mica, orca, taco, tact
-5 letters (21): actor, attic, cacao, cacti, carat, carom, circa, cirri, coact, coati, cocci, cocoa, comic, comma, croci, macro, micro, mimic, tacit, toric, tract
-6 letters (15): acacia, aortic, arctic, atomic, carrot, citric, commit, critic, maraca, rococo, romcom, tactic, tarmac, tomcat, tricot
-7 letters (8): attract, carioca, coactor, morocco, ricotta, toccata, tractor, tramcar
-8 letters (2): aromatic, cataract
-9 letters (1): attractor
+4 letters (24): abut, baba, ball, blab, blat, blob, blot, boat, boba, bola, boll, bolo, bolt, boob, boon, boot, bout, bulb, bull, bunt, butt, lobo, noob, tuba
+5 letters (12): abbot, about, banal, baton, bloat, blunt, bubba, nabob, tabla, taboo, tubal, unban
+6 letters (9): baboon, ballot, banana, baobab, blotto, bonbon, bonobo, booboo, button
+7 letters (3): balloon, blatant, nanobot
+8 letters (1): unbutton
 
 Alphabetical:
-acacia     circa    mica
-acai       cirri    micro
-actor      citric   mimic
-aortic     coact    morocco
-arco       coactor  orca
-arctic     coat     ricotta
-aromatic   coati    rococo
-atomic     coca     romcom
-attic      cocci    tacit
-attract    cocoa    taco
-attractor  coir     tact
-cacao      coma     tactic
-cacti      comic    tarmac
-cami       comma    toccata
-camo       commit   tomcat
-carat      coot     toric
-carioca    cram     tract
-carom      critic   tractor
-carrot     croc     tramcar
-cart       croci    tricot
-cataract   macro
-ciao       maraca
+abbot    blot    bulb
+about    blotto  bull
+abut     blunt   bunt
+baba     boat    butt
+baboon   boba    button
+ball     bola    lobo
+balloon  boll    nabob
+ballot   bolo    nanobot
+banal    bolt    noob
+banana   bonbon  tabla
+baobab   bonobo  taboo
+baton    boob    tuba
+blab     booboo  tubal
+blat     boon    unban
+blatant  boot    unbutton
+bloat    bout
+blob     bubba

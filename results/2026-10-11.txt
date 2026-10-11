@@ -1,0 +1,46 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-11
+Letters: baotunl
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: b, a, o, t, u, n, l (required: b)
+Total words: 49
+Pangrams: 0
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 7 | 8 | Total
+------+----+----+---+---+---+------
+A     |  1 |  2 | 0 | 0 | 0 |     3
+B     | 20 |  5 | 9 | 2 | 0 |    36
+L     |  1 |  0 | 0 | 0 | 0 |     1
+N     |  1 |  1 | 0 | 1 | 0 |     3
+T     |  1 |  3 | 0 | 0 | 0 |     4
+U     |  0 |  1 | 0 | 0 | 1 |     2
+Total | 24 | 12 | 9 | 3 | 1 |    49
+
+By length:
+4 letters (24): abut, baba, ball, blab, blat, blob, blot, boat, boba, bola, boll, bolo, bolt, boob, boon, boot, bout, bulb, bull, bunt, butt, lobo, noob, tuba
+5 letters (12): abbot, about, banal, baton, bloat, blunt, bubba, nabob, tabla, taboo, tubal, unban
+6 letters (9): baboon, ballot, banana, baobab, blotto, bonbon, bonobo, booboo, button
+7 letters (3): balloon, blatant, nanobot
+8 letters (1): unbutton
+
+Alphabetical:
+abbot    blot    bulb
+about    blotto  bull
+abut     blunt   bunt
+baba     boat    butt
+baboon   boba    button
+ball     bola    lobo
+balloon  boll    nabob
+ballot   bolo    nanobot
+banal    bolt    noob
+banana   bonbon  tabla
+baobab   bonobo  taboo
+baton    boob    tuba
+blab     booboo  tubal
+blat     boon    unban
+blatant  boot    unbutton
+bloat    bout
+blob     bubba
