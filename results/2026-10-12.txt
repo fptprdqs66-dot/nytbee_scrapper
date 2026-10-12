@@ -1,0 +1,53 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-12
+Letters: eahmtpy
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: e, a, h, m, t, p, y (required: e)
+Total words: 56
+Pangrams: 1 (perfect: 1)
+
+Pangrams (bolded):
+**empathy**
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 7 | 8 | Total
+------+----+----+---+---+---+------
+A     |  1 |  0 | 0 | 1 | 0 |     2
+E     |  1 |  2 | 1 | 1 | 1 |     6
+H     |  6 |  1 | 1 | 0 | 0 |     8
+M     |  7 |  3 | 1 | 0 | 0 |    11
+P     |  3 |  4 | 0 | 0 | 0 |     7
+T     | 10 |  7 | 3 | 0 | 1 |    21
+Y     |  1 |  0 | 0 | 0 | 0 |     1
+Total | 29 | 17 | 6 | 2 | 2 |    56
+
+By length:
+4 letters (29): ahem, epee, hate, heap, heat, heme, hemp, hype, mate, meat, meet, meme, meta, mete, meth, pate, peat, peep, tame, tape, team, teat, teem, temp, thee, them, they, type, yeah
+5 letters (17): empty, etyma, heath, matey, matte, meaty, payee, peaty, peppy, petty, teeth, tempt, tepee, thema, theme, theta, thyme
+6 letters (6): empath, hamate, mayhem, teepee, teethe, tempeh
+7 letters (2): attempt, empathy
+8 letters (2): eyeteeth, teammate
+
+Alphabetical:
+ahem      mayhem    teat
+attempt   meat      teem
+empath    meaty     teepee
+empathy   meet      teeth
+empty     meme      teethe
+epee      meta      temp
+etyma     mete      tempeh
+eyeteeth  meth      tempt
+hamate    pate      tepee
+hate      payee     thee
+heap      peat      them
+heat      peaty     thema
+heath     peep      theme
+heme      peppy     theta
+hemp      petty     they
+hype      tame      thyme
+mate      tape      type
+matey     team      yeah
+matte     teammate
