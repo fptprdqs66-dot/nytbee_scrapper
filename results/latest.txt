@@ -1,53 +1,51 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-12
-Letters: eahmtpy
+Date: 2026-10-13
+Letters: daornip
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: e, a, h, m, t, p, y (required: e)
-Total words: 56
-Pangrams: 1 (perfect: 1)
+Letters: d, a, o, r, n, i, p (required: d)
+Total words: 51
+Pangrams: 2
 
 Pangrams (bolded):
-**empathy**
+**paranoid**, **raindrop**
 BINGO
 
 Spelling Bee Grid:
       |  4 |  5 | 6 | 7 | 8 | Total
 ------+----+----+---+---+---+------
-A     |  1 |  0 | 0 | 1 | 0 |     2
-E     |  1 |  2 | 1 | 1 | 1 |     6
-H     |  6 |  1 | 1 | 0 | 0 |     8
-M     |  7 |  3 | 1 | 0 | 0 |    11
-P     |  3 |  4 | 0 | 0 | 0 |     7
-T     | 10 |  7 | 3 | 0 | 1 |    21
-Y     |  1 |  0 | 0 | 0 | 0 |     1
-Total | 29 | 17 | 6 | 2 | 2 |    56
+A     |  1 |  2 | 0 | 3 | 0 |     6
+D     |  6 |  5 | 2 | 0 | 0 |    13
+I     |  0 |  0 | 2 | 0 | 0 |     2
+N     |  1 |  2 | 0 | 1 | 0 |     4
+O     |  1 |  0 | 2 | 0 | 0 |     3
+P     |  3 |  2 | 1 | 1 | 2 |     9
+R     |  5 |  7 | 1 | 0 | 1 |    14
+Total | 17 | 18 | 8 | 5 | 3 |    51
 
 By length:
-4 letters (29): ahem, epee, hate, heap, heat, heme, hemp, hype, mate, meat, meet, meme, meta, mete, meth, pate, peat, peep, tame, tape, team, teat, teem, temp, thee, them, they, type, yeah
-5 letters (17): empty, etyma, heath, matey, matte, meaty, payee, peaty, peppy, petty, teeth, tempt, tepee, thema, theme, theta, thyme
-6 letters (6): empath, hamate, mayhem, teepee, teethe, tempeh
-7 letters (2): attempt, empathy
-8 letters (2): eyeteeth, teammate
+4 letters (17): arid, darn, dino, dodo, door, drip, drop, nada, odor, paid, pond, prod, raid, rand, rind, road, rood
+5 letters (18): adorn, ardor, dinar, donor, drain, droid, droop, nadir, naiad, panda, podia, radar, radii, radio, radon, rando, rapid, rondo
+6 letters (8): doodad, dorado, indoor, inroad, opioid, ordain, pardon, radian
+7 letters (5): airdrop, andiron, android, nonpaid, parador
+8 letters (3): paradrop, paranoid, raindrop
 
 Alphabetical:
-ahem      mayhem    teat
-attempt   meat      teem
-empath    meaty     teepee
-empathy   meet      teeth
-empty     meme      teethe
-epee      meta      temp
-etyma     mete      tempeh
-eyeteeth  meth      tempt
-hamate    pate      tepee
-hate      payee     thee
-heap      peat      them
-heat      peaty     thema
-heath     peep      theme
-heme      peppy     theta
-hemp      petty     they
-hype      tame      thyme
-mate      tape      type
-matey     team      yeah
-matte     teammate
+adorn    droop     podia
+airdrop  drop      pond
+andiron  indoor    prod
+android  inroad    radar
+ardor    nada      radian
+arid     nadir     radii
+darn     naiad     radio
+dinar    nonpaid   radon
+dino     odor      raid
+dodo     opioid    raindrop
+donor    ordain    rand
+doodad   paid      rando
+door     panda     rapid
+dorado   parador   rind
+drain    paradrop  road
+drip     paranoid  rondo
+droid    pardon    rood

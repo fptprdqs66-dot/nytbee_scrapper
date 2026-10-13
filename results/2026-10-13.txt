@@ -1,0 +1,51 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-13
+Letters: daornip
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: d, a, o, r, n, i, p (required: d)
+Total words: 51
+Pangrams: 2
+
+Pangrams (bolded):
+**paranoid**, **raindrop**
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 7 | 8 | Total
+------+----+----+---+---+---+------
+A     |  1 |  2 | 0 | 3 | 0 |     6
+D     |  6 |  5 | 2 | 0 | 0 |    13
+I     |  0 |  0 | 2 | 0 | 0 |     2
+N     |  1 |  2 | 0 | 1 | 0 |     4
+O     |  1 |  0 | 2 | 0 | 0 |     3
+P     |  3 |  2 | 1 | 1 | 2 |     9
+R     |  5 |  7 | 1 | 0 | 1 |    14
+Total | 17 | 18 | 8 | 5 | 3 |    51
+
+By length:
+4 letters (17): arid, darn, dino, dodo, door, drip, drop, nada, odor, paid, pond, prod, raid, rand, rind, road, rood
+5 letters (18): adorn, ardor, dinar, donor, drain, droid, droop, nadir, naiad, panda, podia, radar, radii, radio, radon, rando, rapid, rondo
+6 letters (8): doodad, dorado, indoor, inroad, opioid, ordain, pardon, radian
+7 letters (5): airdrop, andiron, android, nonpaid, parador
+8 letters (3): paradrop, paranoid, raindrop
+
+Alphabetical:
+adorn    droop     podia
+airdrop  drop      pond
+andiron  indoor    prod
+android  inroad    radar
+ardor    nada      radian
+arid     nadir     radii
+darn     naiad     radio
+dinar    nonpaid   radon
+dino     odor      raid
+dodo     opioid    raindrop
+donor    ordain    rand
+doodad   paid      rando
+door     panda     rapid
+dorado   parador   rind
+drain    paradrop  road
+drip     paranoid  rondo
+droid    pardon    rood
