@@ -1,0 +1,39 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-14
+Letters: eblikox
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: e, b, l, i, k, o, x (required: e)
+Total words: 23
+Pangrams: 1 (perfect: 1)
+
+Pangrams (bolded):
+**boxlike**
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 7 | Total
+------+----+---+---+---+------
+B     |  3 | 4 | 2 | 1 |    10
+E     |  0 | 1 | 0 | 0 |     1
+I     |  1 | 0 | 0 | 0 |     1
+K     |  1 | 0 | 1 | 0 |     2
+L     |  3 | 1 | 0 | 1 |     5
+O     |  2 | 1 | 1 | 0 |     4
+Total | 10 | 7 | 4 | 2 |    23
+
+By length:
+4 letters (10): bell, bike, bile, ibex, keel, leek, like, lobe, oboe, oleo
+5 letters (7): belie, belle, bible, bloke, exile, libel, ollie
+6 letters (4): bobble, bookie, kibble, oxlike
+7 letters (2): boxlike, libelee
+
+Alphabetical:
+belie   bookie   libelee
+bell    boxlike  like
+belle   exile    lobe
+bible   ibex     oboe
+bike    keel     oleo
+bile    kibble   ollie
+bloke   leek     oxlike
+bobble  libel
