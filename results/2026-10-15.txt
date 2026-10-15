@@ -1,0 +1,50 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-15
+Letters: nalmcyi
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: n, a, l, m, c, y, i (required: n)
+Total words: 56
+Pangrams: 0
+
+Spelling Bee Grid:
+      |  4 |  5 |  6 | 7 | 8 | 9 | 10 | Total
+------+----+----+----+---+---+---+----+------
+A     |  1 |  2 |  2 | 1 | 0 | 0 |  0 |     6
+C     |  2 |  4 |  4 | 2 | 1 | 2 |  1 |    16
+I     |  0 |  1 |  0 | 0 | 1 | 0 |  0 |     2
+L     |  2 |  1 |  2 | 2 | 0 | 0 |  0 |     7
+M     |  4 |  5 |  4 | 4 | 1 | 1 |  0 |    19
+N     |  3 |  2 |  1 | 0 | 0 | 0 |  0 |     6
+Total | 12 | 15 | 13 | 9 | 3 | 3 |  1 |    56
+
+By length:
+4 letters (12): anal, clan, cyan, lain, limn, main, many, mini, myna, naan, nail, nana
+5 letters (15): anima, annal, canal, canna, canny, cynic, inlay, lanai, mania, manic, manly, manna, minim, nanny, ninny
+6 letters (13): anally, animal, caiman, cancan, cayman, clinic, lamina, layman, maniac, manila, minima, minyan, niacin
+7 letters (9): almanac, cannily, cynical, laminal, liminal, mailman, mancala, minicam, minimal
+8 letters (3): clinical, inimical, maniacal
+9 letters (3): clinician, cynically, mammalian
+10 letters (1): clinically
+
+Alphabetical:
+almanac     cynic      manic
+anal        cynical    manila
+anally      cynically  manly
+anima       inimical   manna
+animal      inlay      many
+annal       lain       mini
+caiman      lamina     minicam
+canal       laminal    minim
+cancan      lanai      minima
+canna       layman     minimal
+cannily     liminal    minyan
+canny       limn       myna
+cayman      mailman    naan
+clan        main       nail
+clinic      mammalian  nana
+clinical    mancala    nanny
+clinically  mania      niacin
+clinician   maniac     ninny
+cyan        maniacal
