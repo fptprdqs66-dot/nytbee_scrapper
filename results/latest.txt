@@ -1,50 +1,55 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-15
-Letters: nalmcyi
+Date: 2026-10-16
+Letters: gbinrup
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: n, a, l, m, c, y, i (required: n)
+Letters: g, b, i, n, r, u, p (required: g)
 Total words: 56
-Pangrams: 0
+Pangrams: 2 (perfect: 1)
+
+Pangrams (bolded):
+**burping**, **upbringing**
+BINGO
 
 Spelling Bee Grid:
-      |  4 |  5 |  6 | 7 | 8 | 9 | 10 | Total
-------+----+----+----+---+---+---+----+------
-A     |  1 |  2 |  2 | 1 | 0 | 0 |  0 |     6
-C     |  2 |  4 |  4 | 2 | 1 | 2 |  1 |    16
-I     |  0 |  1 |  0 | 0 | 1 | 0 |  0 |     2
-L     |  2 |  1 |  2 | 2 | 0 | 0 |  0 |     7
-M     |  4 |  5 |  4 | 4 | 1 | 1 |  0 |    19
-N     |  3 |  2 |  1 | 0 | 0 | 0 |  0 |     6
-Total | 12 | 15 | 13 | 9 | 3 | 3 |  1 |    56
+      |  4 | 5 | 6 |  7 | 8 | 9 | 10 | Total
+------+----+---+---+----+---+---+----+------
+B     |  3 | 1 | 0 |  7 | 1 | 0 |  0 |    12
+G     |  4 | 0 | 1 |  4 | 3 | 0 |  0 |    12
+I     |  0 | 0 | 1 |  1 | 1 | 0 |  0 |     3
+N     |  0 | 0 | 1 |  1 | 0 | 0 |  0 |     2
+P     |  2 | 0 | 2 |  7 | 0 | 0 |  0 |    11
+R     |  2 | 1 | 0 |  7 | 0 | 0 |  0 |    10
+U     |  0 | 1 | 2 |  0 | 0 | 2 |  1 |     6
+Total | 11 | 3 | 7 | 27 | 5 | 2 |  1 |    56
 
 By length:
-4 letters (12): anal, clan, cyan, lain, limn, main, many, mini, myna, naan, nail, nana
-5 letters (15): anima, annal, canal, canna, canny, cynic, inlay, lanai, mania, manic, manly, manna, minim, nanny, ninny
-6 letters (13): anally, animal, caiman, cancan, cayman, clinic, lamina, layman, maniac, manila, minima, minyan, niacin
-7 letters (9): almanac, cannily, cynical, laminal, liminal, mailman, mancala, minicam, minimal
-8 letters (3): clinical, inimical, maniacal
-9 letters (3): clinician, cynically, mammalian
-10 letters (1): clinically
+4 letters (11): brig, bung, burg, grin, grip, grub, guru, ping, prig, ring, rung
+5 letters (3): bring, ruing, unrig
+6 letters (7): gibing, inning, nigiri, pining, piping, upping, urging
+7 letters (27): binging, binning, bribing, brining, bugging, burning, burping, gigging, ginning, griping, gunning, inuring, nipping, pigging, pinging, pinning, pruning, punning, purging, purring, ribbing, rigging, ringing, ripping, rubbing, ruining, running
+8 letters (5): bringing, grinning, gripping, grubbing, inurning
+9 letters (2): unpinning, unrigging
+10 letters (1): upbringing
 
 Alphabetical:
-almanac     cynic      manic
-anal        cynical    manila
-anally      cynically  manly
-anima       inimical   manna
-animal      inlay      many
-annal       lain       mini
-caiman      lamina     minicam
-canal       laminal    minim
-cancan      lanai      minima
-canna       layman     minimal
-cannily     liminal    minyan
-canny       limn       myna
-cayman      mailman    naan
-clan        main       nail
-clinic      mammalian  nana
-clinical    mancala    nanny
-clinically  mania      niacin
-clinician   maniac     ninny
-cyan        maniacal
+binging   gripping  purging
+binning   grub      purring
+bribing   grubbing  ribbing
+brig      gunning   rigging
+bring     guru      ring
+bringing  inning    ringing
+brining   inuring   ripping
+bugging   inurning  rubbing
+bung      nigiri    ruing
+burg      nipping   ruining
+burning   pigging   rung
+burping   ping      running
+gibing    pinging   unpinning
+gigging   pining    unrig
+ginning   pinning   unrigging
+grin      piping    upbringing
+grinning  prig      upping
+grip      pruning   urging
+griping   punning
