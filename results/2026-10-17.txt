@@ -1,0 +1,44 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-17
+Letters: malbunt
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: m, a, l, b, u, n, t (required: m)
+Total words: 33
+Pangrams: 1
+
+Pangrams (bolded):
+**ambulant**
+BINGO
+
+Spelling Bee Grid:
+      |  4 | 5 |  6 | 8 | Total
+------+----+---+----+---+------
+A     |  1 | 1 |  2 | 2 |     6
+B     |  2 | 0 |  1 | 0 |     3
+L     |  2 | 1 |  0 | 0 |     3
+M     |  6 | 4 |  5 | 0 |    15
+N     |  1 | 0 |  1 | 0 |     2
+T     |  0 | 0 |  1 | 1 |     2
+U     |  0 | 1 |  1 | 0 |     2
+Total | 12 | 7 | 11 | 3 |    33
+
+By length:
+4 letters (12): alum, balm, blam, lama, lamb, mall, malt, mama, maul, mull, mutt, numb
+5 letters (7): album, llama, mamba, mamma, manna, manta, unman
+6 letters (11): alumna, autumn, bantam, mammal, manual, mutant, mutual, muumuu, numbat, tumult, umlaut
+8 letters (3): ambulant, autumnal, tantalum
+
+Alphabetical:
+album     llama   mull
+alum      mall    mutant
+alumna    malt    mutt
+ambulant  mama    mutual
+autumn    mamba   muumuu
+autumnal  mamma   numb
+balm      mammal  numbat
+bantam    manna   tantalum
+blam      manta   tumult
+lama      manual  umlaut
+lamb      maul    unman
