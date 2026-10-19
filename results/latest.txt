@@ -1,57 +1,42 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-18
-Letters: identoj
+Date: 2026-10-19
+Letters: hgelinw
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: i, d, e, n, t, o, j (required: i)
-Total words: 61
-Pangrams: 1 (perfect: 1)
+Letters: h, g, e, l, i, n, w (required: h)
+Total words: 32
+Pangrams: 1
 
 Pangrams (bolded):
-**jointed**
-BINGO
+**wheeling**
 
 Spelling Bee Grid:
-      |  4 |  5 |  6 | 7 | 8 | 9 | 11 | Total
-------+----+----+----+---+---+---+----+------
-D     |  5 |  4 |  4 | 1 | 0 | 2 |  0 |    16
-E     |  1 |  0 |  3 | 1 | 1 | 0 |  0 |     6
-I     |  1 |  3 |  7 | 1 | 2 | 1 |  1 |    16
-J     |  2 |  2 |  1 | 1 | 0 | 0 |  0 |     6
-N     |  2 |  0 |  1 | 0 | 2 | 0 |  0 |     5
-O     |  0 |  1 |  0 | 0 | 0 | 0 |  0 |     1
-T     |  4 |  2 |  4 | 1 | 0 | 0 |  0 |    11
-Total | 15 | 12 | 20 | 5 | 5 | 3 |  1 |    61
+      |  4 | 5 | 6 | 7 | 8 | 9 | Total
+------+----+---+---+---+---+---+------
+G     |  1 | 0 | 0 | 0 | 0 | 0 |     1
+H     |  5 | 2 | 3 | 3 | 0 | 0 |    13
+N     |  1 | 1 | 0 | 0 | 1 | 0 |     3
+W     |  3 | 4 | 1 | 3 | 3 | 1 |    15
+Total | 10 | 7 | 4 | 6 | 4 | 1 |    32
 
 By length:
-4 letters (15): died, diet, dine, dino, dint, edit, into, jinn, join, nine, nite, tide, tied, tine, tint
-5 letters (12): dined, diode, ditto, djinn, idiot, indie, innie, jinni, joint, onion, tided, tined
-6 letters (20): denied, dentin, dieted, djinni, eddied, edited, enjoin, indeed, indent, intend, intent, intone, iodide, iodine, joined, notion, tidied, tinned, tinted, toonie
-7 letters (5): dinette, edition, intoned, jointed, tontine
-8 letters (5): enjoined, indented, intended, nineteen, noontide
-9 letters (3): dentition, detention, intention
-11 letters (1): intentioned
+4 letters (10): ghee, heel, hell, hewn, high, hill, nigh, whee, when, whew
+5 letters (7): henge, hinge, neigh, weigh, wheel, while, whine
+6 letters (4): heinie, hewing, hieing, whinge
+7 letters (6): heeling, hilling, hinging, wheelie, whiling, whining
+8 letters (4): neighing, weighing, wheeling, whinging
+9 letters (1): whingeing
 
 Alphabetical:
-denied     enjoined     joint
-dentin     idiot        jointed
-dentition  indeed       nine
-detention  indent       nineteen
-died       indented     nite
-diet       indie        noontide
-dieted     innie        notion
-dine       intend       onion
-dined      intended     tide
-dinette    intent       tided
-dino       intention    tidied
-dint       intentioned  tied
-diode      into         tine
-ditto      intone       tined
-djinn      intoned      tinned
-djinni     iodide       tint
-eddied     iodine       tinted
-edit       jinn         tontine
-edited     jinni        toonie
-edition    join
-enjoin     joined
+ghee     hilling   wheeling
+heel     hinge     when
+heeling  hinging   whew
+heinie   neigh     while
+hell     neighing  whiling
+henge    nigh      whine
+hewing   weigh     whinge
+hewn     weighing  whingeing
+hieing   whee      whinging
+high     wheel     whining
+hill     wheelie

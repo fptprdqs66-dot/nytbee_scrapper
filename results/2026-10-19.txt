@@ -1,0 +1,42 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-19
+Letters: hgelinw
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: h, g, e, l, i, n, w (required: h)
+Total words: 32
+Pangrams: 1
+
+Pangrams (bolded):
+**wheeling**
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 7 | 8 | 9 | Total
+------+----+---+---+---+---+---+------
+G     |  1 | 0 | 0 | 0 | 0 | 0 |     1
+H     |  5 | 2 | 3 | 3 | 0 | 0 |    13
+N     |  1 | 1 | 0 | 0 | 1 | 0 |     3
+W     |  3 | 4 | 1 | 3 | 3 | 1 |    15
+Total | 10 | 7 | 4 | 6 | 4 | 1 |    32
+
+By length:
+4 letters (10): ghee, heel, hell, hewn, high, hill, nigh, whee, when, whew
+5 letters (7): henge, hinge, neigh, weigh, wheel, while, whine
+6 letters (4): heinie, hewing, hieing, whinge
+7 letters (6): heeling, hilling, hinging, wheelie, whiling, whining
+8 letters (4): neighing, weighing, wheeling, whinging
+9 letters (1): whingeing
+
+Alphabetical:
+ghee     hilling   wheeling
+heel     hinge     when
+heeling  hinging   whew
+heinie   neigh     while
+hell     neighing  whiling
+henge    nigh      whine
+hewing   weigh     whinge
+hewn     weighing  whingeing
+hieing   whee      whinging
+high     wheel     whining
+hill     wheelie
