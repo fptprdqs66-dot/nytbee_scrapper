@@ -1,52 +1,52 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-21
-Letters: lairypd
+Date: 2026-10-22
+Letters: hacetlb
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: l, a, i, r, y, p, d (required: l)
-Total words: 56
-Pangrams: 2 (perfect: 1)
-
-Pangrams (bolded):
-**lapidary**, **rapidly**
+Letters: h, a, c, e, t, l, b (required: h)
+Total words: 59
+Pangrams: 0
+BINGO
 
 Spelling Bee Grid:
-      |  4 |  5 |  6 | 7 | 8 | 10 | Total
-------+----+----+----+---+---+----+------
-A     |  2 |  2 |  2 | 1 | 0 |  0 |     7
-D     |  2 |  5 |  1 | 1 | 0 |  1 |    10
-I     |  3 |  2 |  0 | 0 | 0 |  0 |     5
-L     |  7 |  2 |  0 | 0 | 1 |  0 |    10
-P     |  5 |  2 |  5 | 2 | 1 |  0 |    15
-R     |  3 |  2 |  2 | 1 | 1 |  0 |     9
-Total | 22 | 15 | 10 | 5 | 3 |  1 |    56
+      |  4 |  5 | 6 | 7 | 8 | 10 | Total
+------+----+----+---+---+---+----+------
+A     |  1 |  0 | 1 | 2 | 0 |  0 |     4
+B     |  3 |  5 | 1 | 0 | 0 |  0 |     9
+C     |  1 |  3 | 1 | 2 | 1 |  0 |     8
+E     |  2 |  0 | 0 | 0 | 0 |  0 |     2
+H     |  9 |  4 | 1 | 1 | 3 |  0 |    18
+L     |  2 |  5 | 1 | 0 | 0 |  0 |     8
+T     |  4 |  3 | 2 | 0 | 0 |  1 |    10
+Total | 22 | 20 | 7 | 5 | 4 |  1 |    59
 
 By length:
-4 letters (22): ally, aril, dial, dill, idly, idyl, illy, lady, laid, lair, lard, liar, lily, lira, pail, pall, palp, pill, play, rail, rial, rill
-5 letters (15): allay, apply, daily, dally, dilly, drill, dryly, idyll, iliad, lipid, lippy, papal, plaid, rally, riyal
-6 letters (10): airily, appall, diddly, palapa, pallid, parlay, piddly, pillar, radial, ripply
-7 letters (5): airplay, daylily, papally, papilla, rapidly
-8 letters (3): lapidary, pallidly, radially
-10 letters (1): dillydally
+4 letters (22): ache, baht, bath, blah, chat, each, etch, hale, hall, halt, hate, hath, heal, heat, heel, hell, lath, lech, tach, tech, that, thee
+5 letters (20): bathe, beach, beech, belch, blech, cache, catch, cheat, halal, hatch, hatha, heath, latch, lathe, leach, leech, letch, teach, teeth, theta
+6 letters (7): attach, bleach, cachet, health, lethal, teethe, thatch
+7 letters (5): athlete, attache, challah, cheetah, hatchet
+8 letters (4): catchall, hateable, healable, heatable
+10 letters (1): telehealth
 
 Alphabetical:
-airily      idyll     papal
-airplay     iliad     papally
-allay       illy      papilla
-ally        lady      parlay
-appall      laid      piddly
-apply       lair      pill
-aril        lapidary  pillar
-daily       lard      plaid
-dally       liar      play
-daylily     lily      radial
-dial        lipid     radially
-diddly      lippy     rail
-dill        lira      rally
-dilly       pail      rapidly
-dillydally  palapa    rial
-drill       pall      rill
-dryly       pallid    ripply
-idly        pallidly  riyal
-idyl        palp
+ache      cheetah   hell
+athlete   each      latch
+attach    etch      lath
+attache   halal     lathe
+baht      hale      leach
+bath      hall      lech
+bathe     halt      leech
+beach     hatch     letch
+beech     hatchet   lethal
+belch     hate      tach
+blah      hateable  teach
+bleach    hath      tech
+blech     hatha     teeth
+cache     heal      teethe
+cachet    healable  telehealth
+catch     health    that
+catchall  heat      thatch
+challah   heatable  thee
+chat      heath     theta
+cheat     heel
