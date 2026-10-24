@@ -1,43 +1,49 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-23
-Letters: lcogtix
+Date: 2026-10-24
+Letters: palcrti
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: l, c, o, g, t, i, x (required: l)
-Total words: 30
+Letters: p, a, l, c, r, t, i (required: p)
+Total words: 50
 Pangrams: 1
 
 Pangrams (bolded):
-**toxicologic**
+**practical**
 
 Spelling Bee Grid:
-      |  4 | 5 | 6 | 7 | 8 | 11 | Total
-------+----+---+---+---+---+----+------
-C     |  5 | 1 | 0 | 0 | 0 |  0 |     6
-G     |  2 | 0 | 2 | 0 | 0 |  0 |     4
-I     |  0 | 1 | 0 | 2 | 0 |  0 |     3
-L     |  6 | 3 | 0 | 0 | 0 |  0 |     9
-O     |  1 | 0 | 0 | 0 | 1 |  0 |     2
-T     |  5 | 0 | 0 | 0 | 0 |  1 |     6
-Total | 19 | 5 | 2 | 2 | 1 |  1 |    30
+      |  4 | 5 | 6 |  7 | 8 | 9 | Total
+------+----+---+---+----+---+---+------
+A     |  0 | 1 | 2 |  1 | 0 | 0 |     4
+C     |  4 | 2 | 1 |  2 | 1 | 0 |    10
+P     | 12 | 3 | 2 |  8 | 1 | 1 |    27
+R     |  1 | 0 | 0 |  1 | 0 | 0 |     2
+T     |  5 | 1 | 0 |  1 | 0 | 0 |     7
+Total | 22 | 7 | 5 | 13 | 2 | 1 |    50
 
 By length:
-4 letters (19): clog, clot, coil, colt, cool, gill, gilt, lilt, loci, loco, logo, loll, loot, olio, till, tilt, toil, toll, tool
-5 letters (5): colic, igloo, licit, logic, lotto
-6 letters (2): gigolo, googol
-7 letters (2): illicit, illogic
-8 letters (1): ocotillo
-11 letters (1): toxicologic
+4 letters (22): carp, clap, clip, crap, pact, pail, pair, pall, palp, papa, part, pica, pill, pita, plat, prat, rapt, tapa, tarp, tipi, trap, trip
+5 letters (7): apart, capri, carpi, papal, pipit, plait, tapir
+6 letters (5): alpaca, appall, carpal, palapa, pillar
+7 letters (13): apparat, capital, catalpa, palatal, papilla, partial, partita, piccata, piratic, pitapat, priapic, rattrap, tilapia
+8 letters (2): claptrap, palatial
+9 letters (1): practical
 
 Alphabetical:
-clog    igloo    loot
-clot    illicit  lotto
-coil    illogic  ocotillo
-colic   licit    olio
-colt    lilt     till
-cool    loci     tilt
-gigolo  loco     toil
-gill    logic    toll
-gilt    logo     tool
-googol  loll     toxicologic
+alpaca    palapa    pita
+apart     palatal   pitapat
+appall    palatial  plait
+apparat   pall      plat
+capital   palp      practical
+capri     papa      prat
+carp      papal     priapic
+carpal    papilla   rapt
+carpi     part      rattrap
+catalpa   partial   tapa
+clap      partita   tapir
+claptrap  pica      tarp
+clip      piccata   tilapia
+crap      pill      tipi
+pact      pillar    trap
+pail      pipit     trip
+pair      piratic
