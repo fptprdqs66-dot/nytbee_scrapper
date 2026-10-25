@@ -1,49 +1,54 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-24
-Letters: palcrti
+Date: 2026-10-25
+Letters: mabloin
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: p, a, l, c, r, t, i (required: p)
-Total words: 50
-Pangrams: 1
-
-Pangrams (bolded):
-**practical**
+Letters: m, a, b, l, o, i, n (required: m)
+Total words: 64
+Pangrams: 0
+BINGO
 
 Spelling Bee Grid:
-      |  4 | 5 | 6 |  7 | 8 | 9 | Total
-------+----+---+---+----+---+---+------
-A     |  0 | 1 | 2 |  1 | 0 | 0 |     4
-C     |  4 | 2 | 1 |  2 | 1 | 0 |    10
-P     | 12 | 3 | 2 |  8 | 1 | 1 |    27
-R     |  1 | 0 | 0 |  1 | 0 | 0 |     2
-T     |  5 | 1 | 0 |  1 | 0 | 0 |     7
-Total | 22 | 7 | 5 | 13 | 2 | 1 |    50
+      |  4 |  5 |  6 | 7 | 8 | 9 | Total
+------+----+----+----+---+---+---+------
+A     |  1 |  3 |  2 | 1 | 0 | 0 |     7
+B     |  4 |  1 |  1 | 1 | 0 | 0 |     7
+I     |  2 |  1 |  0 | 0 | 0 | 0 |     3
+L     |  8 |  2 |  1 | 2 | 0 | 0 |    13
+M     | 12 |  8 |  5 | 3 | 1 | 2 |    31
+N     |  0 |  1 |  0 | 1 | 0 | 0 |     2
+O     |  0 |  0 |  1 | 0 | 0 | 0 |     1
+Total | 27 | 16 | 10 | 8 | 1 | 2 |    64
 
 By length:
-4 letters (22): carp, clap, clip, crap, pact, pail, pair, pall, palp, papa, part, pica, pill, pita, plat, prat, rapt, tapa, tarp, tipi, trap, trip
-5 letters (7): apart, capri, carpi, papal, pipit, plait, tapir
-6 letters (5): alpaca, appall, carpal, palapa, pillar
-7 letters (13): apparat, capital, catalpa, palatal, papilla, partial, partita, piccata, piratic, pitapat, priapic, rattrap, tilapia
-8 letters (2): claptrap, palatial
-9 letters (1): practical
+4 letters (27): ammo, balm, blam, bomb, boom, iamb, imam, lama, lamb, lima, limb, limn, limo, loam, loom, mail, maim, main, mall, mama, mill, mini, moan, moil, moll, mono, moon
+5 letters (16): amino, amnio, anima, bloom, iambi, limbo, llama, mamba, mambo, mamma, mania, manna, minim, momma, moola, nimbi
+6 letters (10): abloom, animal, bamboo, lamina, mammal, mammon, manila, minima, minion, oilman
+7 letters (8): ammonia, bambino, laminal, liminal, mailman, million, minimal, nominal
+8 letters (1): monomial
+9 letters (2): mammalian, monomania
 
 Alphabetical:
-alpaca    palapa    pita
-apart     palatal   pitapat
-appall    palatial  plait
-apparat   pall      plat
-capital   palp      practical
-capri     papa      prat
-carp      papal     priapic
-carpal    papilla   rapt
-carpi     part      rattrap
-catalpa   partial   tapa
-clap      partita   tapir
-claptrap  pica      tarp
-clip      piccata   tilapia
-crap      pill      tipi
-pact      pillar    trap
-pail      pipit     trip
-pair      piratic
+abloom   limb       manna
+amino    limbo      mill
+ammo     liminal    million
+ammonia  limn       mini
+amnio    limo       minim
+anima    llama      minima
+animal   loam       minimal
+balm     loom       minion
+bambino  mail       moan
+bamboo   mailman    moil
+blam     maim       moll
+bloom    main       momma
+bomb     mall       mono
+boom     mama       monomania
+iamb     mamba      monomial
+iambi    mambo      moola
+imam     mamma      moon
+lama     mammal     nimbi
+lamb     mammalian  nominal
+lamina   mammon     oilman
+laminal  mania
+lima     manila
