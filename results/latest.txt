@@ -1,59 +1,42 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-26
-Letters: iglnyth
+Date: 2026-10-27
+Letters: aeonhyp
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: i, g, l, n, y, t, h (required: i)
-Total words: 71
-Pangrams: 1 (perfect: 1)
+Letters: a, e, o, n, h, y, p (required: a)
+Total words: 31
+Pangrams: 1
 
 Pangrams (bolded):
-**nightly**
+**payphone**
 
 Spelling Bee Grid:
-      |  4 |  5 | 6 |  7 | 8 | 9 | 10 | 12 | Total
-------+----+----+---+----+---+---+----+----+------
-G     |  2 |  1 | 1 |  3 | 2 | 0 |  0 |  0 |     9
-H     |  4 |  2 | 1 |  4 | 0 | 1 |  0 |  1 |    13
-I     |  2 |  0 | 1 |  0 | 1 | 0 |  0 |  0 |     4
-L     |  3 |  3 | 1 |  2 | 1 | 1 |  0 |  0 |    11
-N     |  1 |  3 | 0 |  2 | 1 | 0 |  1 |  0 |     8
-T     |  5 |  6 | 5 |  8 | 2 | 0 |  0 |  0 |    26
-Total | 17 | 15 | 9 | 19 | 7 | 2 |  1 |  1 |    71
+      |  4 |  5 | 6 | 8 | Total
+------+----+----+---+---+------
+A     |  3 |  2 | 2 | 0 |     7
+H     |  1 |  3 | 1 | 0 |     5
+N     |  4 |  1 | 0 | 0 |     5
+O     |  1 |  0 | 0 | 0 |     1
+P     |  2 |  4 | 2 | 1 |     9
+Y     |  2 |  2 | 0 | 0 |     4
+Total | 13 | 12 | 5 | 1 |    31
 
 By length:
-4 letters (17): gill, gilt, high, hill, hilt, hint, illy, itty, lilt, lily, lint, nigh, thin, till, tilt, tint, tiny
-5 letters (15): glint, hilly, hinny, light, linty, lying, night, ninny, ninth, thigh, thing, tight, tilth, tinny, tying
-6 letters (9): giggly, highly, inning, lining, thingy, thinly, tiling, tingly, tinily
-7 letters (19): gigging, gilling, ginning, hilling, hinging, hinting, hitting, lightly, lilting, nightly, ninthly, tightly, tilling, tilting, tinging, tinning, tinting, tithing, titling
-8 letters (7): giggling, glinting, igniting, lighting, niggling, thinning, tingling
-9 letters (2): highlight, lightning
-10 letters (1): nightlight
-12 letters (1): highlighting
+4 letters (13): aeon, ahoy, anon, heap, naan, nana, nape, neap, opah, pane, papa, yeah, yean
+5 letters (12): annoy, apnea, happy, henna, hyena, nanny, paean, pappy, payee, poppa, yahoo, yappy
+6 letters (5): anyhoo, anyone, happen, papaya, peahen
+8 letters (1): payphone
 
 Alphabetical:
-gigging       inning      thingy
-giggling      itty        thinly
-giggly        light       thinning
-gill          lighting    tight
-gilling       lightly     tightly
-gilt          lightning   tiling
-ginning       lilt        till
-glint         lilting     tilling
-glinting      lily        tilt
-high          lining      tilth
-highlight     lint        tilting
-highlighting  linty       tinging
-highly        lying       tingling
-hill          niggling    tingly
-hilling       nigh        tinily
-hilly         night       tinning
-hilt          nightlight  tinny
-hinging       nightly     tint
-hinny         ninny       tinting
-hint          ninth       tiny
-hinting       ninthly     tithing
-hitting       thigh       titling
-igniting      thin        tying
-illy          thing
+aeon    hyena   pappy
+ahoy    naan    payee
+annoy   nana    payphone
+anon    nanny   peahen
+anyhoo  nape    poppa
+anyone  neap    yahoo
+apnea   opah    yappy
+happen  paean   yeah
+happy   pane    yean
+heap    papa
+henna   papaya

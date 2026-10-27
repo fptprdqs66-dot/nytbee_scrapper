@@ -1,0 +1,42 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-27
+Letters: aeonhyp
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: a, e, o, n, h, y, p (required: a)
+Total words: 31
+Pangrams: 1
+
+Pangrams (bolded):
+**payphone**
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 8 | Total
+------+----+----+---+---+------
+A     |  3 |  2 | 2 | 0 |     7
+H     |  1 |  3 | 1 | 0 |     5
+N     |  4 |  1 | 0 | 0 |     5
+O     |  1 |  0 | 0 | 0 |     1
+P     |  2 |  4 | 2 | 1 |     9
+Y     |  2 |  2 | 0 | 0 |     4
+Total | 13 | 12 | 5 | 1 |    31
+
+By length:
+4 letters (13): aeon, ahoy, anon, heap, naan, nana, nape, neap, opah, pane, papa, yeah, yean
+5 letters (12): annoy, apnea, happy, henna, hyena, nanny, paean, pappy, payee, poppa, yahoo, yappy
+6 letters (5): anyhoo, anyone, happen, papaya, peahen
+8 letters (1): payphone
+
+Alphabetical:
+aeon    hyena   pappy
+ahoy    naan    payee
+annoy   nana    payphone
+anon    nanny   peahen
+anyhoo  nape    poppa
+anyone  neap    yahoo
+apnea   opah    yappy
+happen  paean   yeah
+happy   pane    yean
+heap    papa
+henna   papaya
