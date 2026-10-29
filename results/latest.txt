@@ -1,59 +1,52 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-28
-Letters: ibegldo
+Date: 2026-10-29
+Letters: radongp
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: i, b, e, g, l, d, o (required: i)
-Total words: 71
-Pangrams: 1 (perfect: 1)
+Letters: r, a, d, o, n, g, p (required: r)
+Total words: 54
+Pangrams: 2
 
 Pangrams (bolded):
-**obliged**
-BINGO
+**grandpop**, **propaganda**
 
 Spelling Bee Grid:
-      |  4 |  5 |  6 |  7 | 8 | 9 | Total
-------+----+----+----+----+---+---+------
-B     |  4 |  5 |  6 |  2 | 1 | 0 |    18
-D     |  3 |  3 |  3 |  2 | 0 | 0 |    11
-E     |  0 |  1 |  3 |  0 | 1 | 0 |     5
-G     |  4 |  4 |  7 |  1 | 0 | 0 |    16
-I     |  2 |  2 |  1 |  0 | 0 | 1 |     6
-L     |  1 |  2 |  2 |  4 | 0 | 0 |     9
-O     |  1 |  3 |  1 |  1 | 0 | 0 |     6
-Total | 15 | 20 | 23 | 10 | 2 | 1 |    71
+      |  4 |  5 | 6 | 7 | 8 | 9 | 10 | Total
+------+----+----+---+---+---+---+----+------
+A     |  1 |  5 | 1 | 0 | 0 | 0 |  0 |     7
+D     |  4 |  2 | 2 | 1 | 0 | 0 |  0 |     9
+G     |  4 |  2 | 2 | 2 | 2 | 1 |  0 |    13
+O     |  1 |  2 | 0 | 0 | 0 | 0 |  0 |     3
+P     |  4 |  2 | 1 | 2 | 1 | 0 |  1 |    11
+R     |  7 |  4 | 0 | 0 | 0 | 0 |  0 |    11
+Total | 21 | 17 | 6 | 5 | 3 | 1 |  1 |    54
 
 By length:
-4 letters (15): bide, bile, bill, boil, deli, died, dill, gibe, gild, gill, glib, idle, idol, lied, olio
-5 letters (20): beige, belie, bible, bided, bilge, dildo, diode, dogie, elide, gelid, geoid, gibed, glide, idled, igloo, libel, liege, oiled, oldie, ollie
-6 letters (23): belied, biggie, billed, bodied, boiled, boogie, diddle, doggie, doobie, eddied, edible, elided, gigged, giggle, gigolo, gilded, gilled, glided, goodie, iodide, libido, lidded, oblige
-7 letters (10): bellied, boogied, diddled, dollied, giggled, legible, libeled, libelee, lobbied, obliged
-8 letters (2): bloodied, eligible
-9 letters (1): illegible
+4 letters (21): agar, darn, door, drag, drop, gorp, grad, gran, grog, odor, poor, porn, prod, prop, raga, rand, rang, road, roan, roar, rood
+5 letters (17): adorn, agora, apron, ardor, argon, donor, droop, grand, groan, orang, organ, porno, prong, radar, radon, rando, rondo
+6 letters (6): angora, dorado, dragon, gorgon, grappa, pardon
+7 letters (5): dragoon, grandad, grandpa, parador, paragon
+8 letters (3): granddad, grandpop, paradrop
+9 letters (1): grandpapa
+10 letters (1): propaganda
 
 Alphabetical:
-beige     diode     glided
-belie     doggie    goodie
-belied    dogie     idle
-bellied   dollied   idled
-bible     doobie    idol
-bide      eddied    igloo
-bided     edible    illegible
-biggie    elide     iodide
-bile      elided    legible
-bilge     eligible  libel
-bill      gelid     libeled
-billed    geoid     libelee
-bloodied  gibe      libido
-bodied    gibed     lidded
-boil      gigged    lied
-boiled    giggle    liege
-boogie    giggled   lobbied
-boogied   gigolo    oblige
-deli      gild      obliged
-diddle    gilded    oiled
-diddled   gill      oldie
-died      gilled    olio
-dildo     glib      ollie
-dill      glide
+adorn    grad       poor
+agar     gran       porn
+agora    grand      porno
+angora   grandad    prod
+apron    granddad   prong
+ardor    grandpa    prop
+argon    grandpapa  propaganda
+darn     grandpop   radar
+donor    grappa     radon
+door     groan      raga
+dorado   grog       rand
+drag     odor       rando
+dragon   orang      rang
+dragoon  organ      road
+droop    parador    roan
+drop     paradrop   roar
+gorgon   paragon    rondo
+gorp     pardon     rood

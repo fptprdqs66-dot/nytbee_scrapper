@@ -1,0 +1,52 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-29
+Letters: radongp
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: r, a, d, o, n, g, p (required: r)
+Total words: 54
+Pangrams: 2
+
+Pangrams (bolded):
+**grandpop**, **propaganda**
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 7 | 8 | 9 | 10 | Total
+------+----+----+---+---+---+---+----+------
+A     |  1 |  5 | 1 | 0 | 0 | 0 |  0 |     7
+D     |  4 |  2 | 2 | 1 | 0 | 0 |  0 |     9
+G     |  4 |  2 | 2 | 2 | 2 | 1 |  0 |    13
+O     |  1 |  2 | 0 | 0 | 0 | 0 |  0 |     3
+P     |  4 |  2 | 1 | 2 | 1 | 0 |  1 |    11
+R     |  7 |  4 | 0 | 0 | 0 | 0 |  0 |    11
+Total | 21 | 17 | 6 | 5 | 3 | 1 |  1 |    54
+
+By length:
+4 letters (21): agar, darn, door, drag, drop, gorp, grad, gran, grog, odor, poor, porn, prod, prop, raga, rand, rang, road, roan, roar, rood
+5 letters (17): adorn, agora, apron, ardor, argon, donor, droop, grand, groan, orang, organ, porno, prong, radar, radon, rando, rondo
+6 letters (6): angora, dorado, dragon, gorgon, grappa, pardon
+7 letters (5): dragoon, grandad, grandpa, parador, paragon
+8 letters (3): granddad, grandpop, paradrop
+9 letters (1): grandpapa
+10 letters (1): propaganda
+
+Alphabetical:
+adorn    grad       poor
+agar     gran       porn
+agora    grand      porno
+angora   grandad    prod
+apron    granddad   prong
+ardor    grandpa    prop
+argon    grandpapa  propaganda
+darn     grandpop   radar
+donor    grappa     radon
+door     groan      raga
+dorado   grog       rand
+drag     odor       rando
+dragon   orang      rang
+dragoon  organ      road
+droop    parador    roan
+drop     paradrop   roar
+gorgon   paragon    rondo
+gorp     pardon     rood
