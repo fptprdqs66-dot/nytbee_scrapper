@@ -1,52 +1,57 @@
 NYT Spelling Bee Daily Results
-Date: 2026-10-29
-Letters: radongp
+Date: 2026-10-30
+Letters: canelov
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: r, a, d, o, n, g, p (required: r)
-Total words: 54
+Letters: c, a, n, e, l, o, v (required: c)
+Total words: 66
 Pangrams: 2
 
 Pangrams (bolded):
-**grandpop**, **propaganda**
+**conclave**, **covalence**
+BINGO
 
 Spelling Bee Grid:
-      |  4 |  5 | 6 | 7 | 8 | 9 | 10 | Total
-------+----+----+---+---+---+---+----+------
-A     |  1 |  5 | 1 | 0 | 0 | 0 |  0 |     7
-D     |  4 |  2 | 2 | 1 | 0 | 0 |  0 |     9
-G     |  4 |  2 | 2 | 2 | 2 | 1 |  0 |    13
-O     |  1 |  2 | 0 | 0 | 0 | 0 |  0 |     3
-P     |  4 |  2 | 1 | 2 | 1 | 0 |  1 |    11
-R     |  7 |  4 | 0 | 0 | 0 | 0 |  0 |    11
-Total | 21 | 17 | 6 | 5 | 3 | 1 |  1 |    54
+      |  4 |  5 |  6 |  7 | 8 | 9 | Total
+------+----+----+----+----+---+---+------
+A     |  1 |  0 |  1 |  0 | 0 | 0 |     2
+C     | 12 | 15 |  9 |  5 | 3 | 2 |    46
+E     |  0 |  0 |  1 |  1 | 0 | 0 |     2
+L     |  2 |  2 |  1 |  0 | 0 | 0 |     5
+N     |  0 |  1 |  1 |  1 | 2 | 0 |     5
+O     |  1 |  1 |  0 |  0 | 0 | 0 |     2
+V     |  0 |  1 |  0 |  3 | 0 | 0 |     4
+Total | 16 | 20 | 13 | 10 | 5 | 2 |    66
 
 By length:
-4 letters (21): agar, darn, door, drag, drop, gorp, grad, gran, grog, odor, poor, porn, prod, prop, raga, rand, rang, road, roan, roar, rood
-5 letters (17): adorn, agora, apron, ardor, argon, donor, droop, grand, groan, orang, organ, porno, prong, radar, radon, rando, rondo
-6 letters (6): angora, dorado, dragon, gorgon, grappa, pardon
-7 letters (5): dragoon, grandad, grandpa, parador, paragon
-8 letters (3): granddad, grandpop, paradrop
-9 letters (1): grandpapa
-10 letters (1): propaganda
+4 letters (16): acne, call, cane, cava, cave, cell, clan, coal, coca, cola, cone, cool, cove, lace, loco, once
+5 letters (20): cacao, calla, calve, canal, canna, canoe, canon, cello, clave, clean, clone, clove, cocoa, colon, coven, lance, local, nonce, ocean, vocal
+6 letters (13): alcove, cancan, cancel, cannon, canola, cleave, cloaca, clonal, cloven, cocoon, enlace, locale, neocon
+7 letters (10): colleen, colonel, concave, conceal, convene, enclave, nacelle, valance, valence, volcano
+8 letters (5): callaloo, coevolve, conclave, nonlocal, nonvocal
+9 letters (2): colcannon, covalence
 
 Alphabetical:
-adorn    grad       poor
-agar     gran       porn
-agora    grand      porno
-angora   grandad    prod
-apron    granddad   prong
-ardor    grandpa    prop
-argon    grandpapa  propaganda
-darn     grandpop   radar
-donor    grappa     radon
-door     groan      raga
-dorado   grog       rand
-drag     odor       rando
-dragon   orang      rang
-dragoon  organ      road
-droop    parador    roan
-drop     paradrop   roar
-gorgon   paragon    rondo
-gorp     pardon     rood
+acne      clean      cool
+alcove    cleave     covalence
+cacao     cloaca     cove
+call      clonal     coven
+calla     clone      enclave
+callaloo  clove      enlace
+calve     cloven     lace
+canal     coal       lance
+cancan    coca       local
+cancel    cocoa      locale
+cane      cocoon     loco
+canna     coevolve   nacelle
+cannon    cola       neocon
+canoe     colcannon  nonce
+canola    colleen    nonlocal
+canon     colon      nonvocal
+cava      colonel    ocean
+cave      concave    once
+cell      conceal    valance
+cello     conclave   valence
+clan      cone       vocal
+clave     convene    volcano
