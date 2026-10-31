@@ -1,0 +1,55 @@
+NYT Spelling Bee Daily Results
+Date: 2026-10-31
+Letters: agintuh
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: a, g, i, n, t, u, h (required: a)
+Total words: 64
+Pangrams: 0
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 |  6 |  7 | 8 | 9 | 10 | Total
+------+----+----+----+----+---+---+----+------
+A     |  2 |  4 |  2 |  1 | 1 | 3 |  0 |    13
+G     |  5 |  2 |  1 |  4 | 0 | 0 |  0 |    12
+H     |  2 |  2 |  1 |  2 | 0 | 0 |  0 |     7
+I     |  0 |  0 |  1 |  0 | 0 | 0 |  1 |     2
+N     |  2 |  0 |  2 |  1 | 0 | 0 |  0 |     5
+T     |  6 |  4 |  3 |  3 | 2 | 0 |  0 |    18
+U     |  0 |  3 |  1 |  0 | 1 | 2 |  0 |     7
+Total | 17 | 15 | 11 | 11 | 4 | 5 |  1 |    64
+
+By length:
+4 letters (17): anti, aunt, gaga, gain, gait, gang, gnat, hang, hath, naan, nana, tain, tang, taut, than, that, tuna
+5 letters (15): again, aging, agita, aught, gaunt, giant, hatha, haunt, taiga, taint, taunt, titan, ungag, unhat, untag
+6 letters (11): angina, attain, gating, hating, iguana, natant, naught, tahini, tannin, taught, unhang
+7 letters (11): attaint, gagging, gaining, ganging, gauging, hanging, hatting, nagging, tagging, tanning, tatting
+8 letters (4): attuning, tainting, taunting, untaught
+9 letters (5): agitating, antiaging, attaining, unhanging, untagging
+10 letters (1): initiating
+
+Alphabetical:
+again      gaunt       tainting
+aging      giant       tang
+agita      gnat        tannin
+agitating  hang        tanning
+angina     hanging     tatting
+anti       hath        taught
+antiaging  hatha       taunt
+attain     hating      taunting
+attaining  hatting     taut
+attaint    haunt       than
+attuning   iguana      that
+aught      initiating  titan
+aunt       naan        tuna
+gaga       nagging     ungag
+gagging    nana        unhang
+gain       natant      unhanging
+gaining    naught      unhat
+gait       tagging     untag
+gang       tahini      untagging
+ganging    taiga       untaught
+gating     tain
+gauging    taint
