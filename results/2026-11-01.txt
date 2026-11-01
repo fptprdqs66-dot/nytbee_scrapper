@@ -1,0 +1,41 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-01
+Letters: eftpiog
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: e, f, t, p, i, o, g (required: e)
+Total words: 28
+Pangrams: 1
+
+Pangrams (bolded):
+**pettifog**
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 7 | 8 | Total
+------+----+---+---+---+---+------
+E     |  1 | 0 | 1 | 0 | 0 |     2
+F     |  4 | 1 | 1 | 0 | 0 |     6
+O     |  1 | 0 | 0 | 0 | 0 |     1
+P     |  4 | 2 | 3 | 1 | 1 |    11
+T     |  3 | 1 | 4 | 0 | 0 |     8
+Total | 13 | 4 | 9 | 1 | 1 |    28
+
+By length:
+4 letters (13): epee, feet, fete, fief, fife, ogee, peep, pipe, poet, pope, teff, tope, tote
+5 letters (4): fogie, petit, pipet, tepee
+6 letters (9): effete, footie, petite, poppet, potpie, teepee, tippet, tiptoe, toffee
+7 letters (1): pipette
+8 letters (1): pettifog
+
+Alphabetical:
+effete  petit     teepee
+epee    petite    teff
+feet    pettifog  tepee
+fete    pipe      tippet
+fief    pipet     tiptoe
+fife    pipette   toffee
+fogie   poet      tope
+footie  pope      tote
+ogee    poppet
+peep    potpie
