@@ -1,0 +1,52 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-03
+Letters: cabiklt
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: c, a, b, i, k, l, t (required: c)
+Total words: 49
+Pangrams: 3 (perfect: 1)
+
+Pangrams (bolded):
+**backlit**, **clickbait**, **tailback**
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 7 | 8 | 9 | Total
+------+----+----+---+---+---+---+------
+A     |  1 |  4 | 2 | 0 | 0 | 0 |     7
+B     |  1 |  1 | 0 | 3 | 2 | 1 |     8
+C     |  1 |  6 | 1 | 2 | 2 | 1 |    13
+I     |  0 |  1 | 1 | 1 | 0 | 0 |     3
+K     |  1 |  0 | 0 | 0 | 2 | 0 |     3
+L     |  3 |  2 | 2 | 0 | 0 | 0 |     7
+T     |  4 |  1 | 1 | 0 | 2 | 0 |     8
+Total | 11 | 15 | 7 | 6 | 8 | 2 |    49
+
+By length:
+4 letters (11): acai, back, call, kick, lack, laic, lick, tack, tact, talc, tick
+5 letters (15): abaci, aback, alack, attic, black, cabal, cacti, calla, cilia, clack, click, iliac, licit, lilac, tacit
+6 letters (7): acacia, attack, cabala, italic, lactic, laical, tactic
+7 letters (6): bacilli, backbit, backlit, catcall, cattail, illicit
+8 letters (8): backtalk, biblical, callback, ciabatta, kickback, kickball, tactical, tailback
+9 letters (2): blackball, clickbait
+
+Alphabetical:
+abaci      cacti      lack
+aback      call       lactic
+acacia     calla      laic
+acai       callback   laical
+alack      catcall    licit
+attack     cattail    lick
+attic      ciabatta   lilac
+bacilli    cilia      tacit
+back       clack      tack
+backbit    click      tact
+backlit    clickbait  tactic
+backtalk   iliac      tactical
+biblical   illicit    tailback
+black      italic     talc
+blackball  kick       tick
+cabal      kickback
+cabala     kickball
