@@ -1,0 +1,59 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-04
+Letters: oahyrtp
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: o, a, h, y, r, t, p (required: o)
+Total words: 71
+Pangrams: 1 (perfect: 1)
+
+Pangrams (bolded):
+**atrophy**
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 |  6 | 7 | 8 | 9 | Total
+------+----+----+----+---+---+---+------
+A     |  2 |  2 |  1 | 1 | 0 | 0 |     6
+H     |  5 |  2 |  4 | 0 | 0 | 1 |    12
+O     |  3 |  0 |  1 | 1 | 0 | 0 |     5
+P     |  6 |  4 |  2 | 2 | 0 | 1 |    15
+R     |  4 |  1 |  2 | 2 | 1 | 0 |    10
+T     |  8 |  6 |  5 | 2 | 0 | 0 |    21
+Y     |  0 |  1 |  1 | 0 | 0 | 0 |     2
+Total | 28 | 16 | 16 | 8 | 1 | 2 |    71
+
+By length:
+4 letters (28): ahoy, atop, hoar, hoop, hoot, hora, hypo, oath, oaty, opah, pooh, poop, poor, port, prop, pyro, roar, root, ropy, roto, taro, toot, toro, tort, trot, troy, typo, tyro
+5 letters (16): aorta, aport, hoary, hoppy, photo, poppa, poppy, potty, rotor, tarot, tooth, torah, torta, troop, troth, yahoo
+6 letters (16): arroyo, hoorah, hooray, horror, hotpot, orator, parrot, potato, raptor, rotary, tattoo, throat, toothy, torpor, trophy, yoohoo
+7 letters (8): atrophy, oratory, pharaoh, portray, rapport, rotator, taproot, throaty
+8 letters (1): rotatory
+9 letters (2): hortatory, paratroop
+
+Alphabetical:
+ahoy       parrot    taproot
+aorta      pharaoh   taro
+aport      photo     tarot
+arroyo     pooh      tattoo
+atop       poop      throat
+atrophy    poor      throaty
+hoar       poppa     toot
+hoary      poppy     tooth
+hoop       port      toothy
+hoorah     portray   torah
+hooray     potato    toro
+hoot       potty     torpor
+hoppy      prop      tort
+hora       pyro      torta
+horror     rapport   troop
+hortatory  raptor    trophy
+hotpot     roar      trot
+hypo       root      troth
+oath       ropy      troy
+oaty       rotary    typo
+opah       rotator   tyro
+orator     rotatory  yahoo
+oratory    roto      yoohoo
+paratroop  rotor
