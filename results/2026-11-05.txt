@@ -1,0 +1,47 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-05
+Letters: pgonitv
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: p, g, o, n, i, t, v (required: p)
+Total words: 42
+Pangrams: 1
+
+Pangrams (bolded):
+**pivoting**
+
+Spelling Bee Grid:
+      | 4 | 5 | 6 |  7 | 8 | 9 | 11 | Total
+------+---+---+---+----+---+---+----+------
+G     | 1 | 0 | 0 |  0 | 0 | 0 |  0 |     1
+N     | 0 | 0 | 0 |  1 | 0 | 0 |  0 |     1
+O     | 0 | 0 | 2 |  2 | 0 | 1 |  0 |     5
+P     | 5 | 6 | 5 |  9 | 3 | 1 |  1 |    30
+T     | 1 | 0 | 2 |  2 | 0 | 0 |  0 |     5
+Total | 7 | 6 | 9 | 14 | 3 | 2 |  1 |    42
+
+By length:
+4 letters (7): goop, ping, pint, pogo, pong, poop, tipi
+5 letters (6): pinot, pinto, pipit, piton, pivot, point
+6 letters (9): opting, option, pining, pinion, piping, pippin, potion, tiptop, toping
+7 letters (14): nipping, opining, opinion, pigging, pinging, pinning, pitting, pogoing, pontoon, pooping, popping, potting, tipping, topping
+8 letters (3): pinpoint, pivoting, pointing
+9 letters (2): optioning, pinioning
+11 letters (1): pinpointing
+
+Alphabetical:
+goop       pinot        point
+nipping    pinpoint     pointing
+opining    pinpointing  pong
+opinion    pint         pontoon
+opting     pinto        poop
+option     piping       pooping
+optioning  pipit        popping
+pigging    pippin       potion
+ping       piton        potting
+pinging    pitting      tipi
+pining     pivot        tipping
+pinion     pivoting     tiptop
+pinioning  pogo         toping
+pinning    pogoing      topping
