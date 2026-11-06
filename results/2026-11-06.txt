@@ -1,0 +1,51 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-06
+Letters: lcinotu
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: l, c, i, n, o, t, u (required: l)
+Total words: 48
+Pangrams: 2 (perfect: 1)
+
+Pangrams (bolded):
+**linocut**, **locution**
+BINGO
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 7 | 8 | 9 | Total
+------+----+---+---+---+---+---+------
+C     |  6 | 3 | 2 | 2 | 0 | 1 |    14
+I     |  0 | 0 | 0 | 1 | 0 | 0 |     1
+L     | 12 | 2 | 1 | 1 | 1 | 0 |    17
+N     |  1 | 0 | 0 | 0 | 0 | 1 |     2
+O     |  1 | 1 | 1 | 0 | 1 | 1 |     5
+T     |  5 | 0 | 0 | 0 | 0 | 0 |     5
+U     |  0 | 2 | 2 | 0 | 0 | 0 |     4
+Total | 25 | 8 | 6 | 4 | 2 | 3 |    48
+
+By length:
+4 letters (25): clot, coil, colt, cool, cull, cult, lilt, lint, lion, loci, loco, loin, loll, loon, loot, lout, lull, lulu, null, olio, till, tilt, toil, toll, tool
+5 letters (8): clout, colic, colon, licit, lotto, oculi, unlit, until
+6 letters (6): clinic, cultic, lotion, occult, uncoil, uncool
+7 letters (4): colonic, council, illicit, linocut
+8 letters (2): locution, ocotillo
+9 letters (3): cotillion, nonillion, octillion
+
+Alphabetical:
+clinic     lilt      nonillion
+clot       linocut   null
+clout      lint      occult
+coil       lion      ocotillo
+colic      loci      octillion
+colon      loco      oculi
+colonic    locution  olio
+colt       loin      till
+cool       loll      tilt
+cotillion  loon      toil
+council    loot      toll
+cull       lotion    tool
+cult       lotto     uncoil
+cultic     lout      uncool
+illicit    lull      unlit
+licit      lulu      until
