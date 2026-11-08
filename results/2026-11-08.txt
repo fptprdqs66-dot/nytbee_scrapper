@@ -1,0 +1,47 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-08
+Letters: palcejk
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: p, a, l, c, e, j, k (required: p)
+Total words: 37
+Pangrams: 1
+
+Pangrams (bolded):
+**applejack**
+BINGO
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 8 | 9 | Total
+------+----+---+---+---+---+------
+A     |  0 | 2 | 3 | 1 | 1 |     7
+C     |  2 | 0 | 0 | 0 | 0 |     2
+E     |  1 | 0 | 0 | 0 | 0 |     1
+J     |  2 | 0 | 0 | 0 | 0 |     2
+K     |  2 | 1 | 0 | 0 | 0 |     3
+L     |  1 | 1 | 0 | 0 | 0 |     2
+P     | 14 | 3 | 3 | 0 | 0 |    20
+Total | 22 | 7 | 6 | 1 | 1 |    37
+
+By length:
+4 letters (22): cape, clap, epee, jape, jeep, keep, kelp, leap, pace, pack, pale, pall, palp, papa, peak, peal, peck, peek, peel, peep, peke, plea
+5 letters (7): apace, apple, kappa, lapel, papal, peace, place
+6 letters (6): alpaca, appall, appeal, paella, palace, palapa
+8 letters (1): appellee
+9 letters (1): applejack
+
+Alphabetical:
+alpaca     keep    papal
+apace      kelp    peace
+appall     lapel   peak
+appeal     leap    peal
+appellee   pace    peck
+apple      pack    peek
+applejack  paella  peel
+cape       palace  peep
+clap       palapa  peke
+epee       pale    place
+jape       pall    plea
+jeep       palp
+kappa      papa

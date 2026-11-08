@@ -1,61 +1,47 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-07
-Letters: iadelmv
+Date: 2026-11-08
+Letters: palcejk
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: i, a, d, e, l, m, v (required: i)
-Total words: 79
+Letters: p, a, l, c, e, j, k (required: p)
+Total words: 37
 Pangrams: 1
 
 Pangrams (bolded):
-**medieval**
+**applejack**
 BINGO
 
 Spelling Bee Grid:
-      |  4 |  5 |  6 | 7 | 8 | Total
-------+----+----+----+---+---+------
-A     |  3 |  5 |  1 | 1 | 0 |    10
-D     |  7 |  2 |  5 | 6 | 0 |    20
-E     |  1 |  2 |  2 | 1 | 0 |     6
-I     |  3 |  4 |  0 | 0 | 0 |     7
-L     |  5 |  3 |  3 | 1 | 0 |    12
-M     |  8 |  2 |  5 | 0 | 1 |    16
-V     |  4 |  3 |  1 | 0 | 0 |     8
-Total | 31 | 21 | 17 | 9 | 1 |    79
+      |  4 | 5 | 6 | 8 | 9 | Total
+------+----+---+---+---+---+------
+A     |  0 | 2 | 3 | 1 | 1 |     7
+C     |  2 | 0 | 0 | 0 | 0 |     2
+E     |  1 | 0 | 0 | 0 | 0 |     1
+J     |  2 | 0 | 0 | 0 | 0 |     2
+K     |  2 | 1 | 0 | 0 | 0 |     3
+L     |  1 | 1 | 0 | 0 | 0 |     2
+P     | 14 | 3 | 3 | 0 | 0 |    20
+Total | 22 | 7 | 6 | 1 | 1 |    37
 
 By length:
-4 letters (31): aide, amid, avid, deli, dial, died, dill, dime, diva, dive, evil, idea, idle, imam, laid, lied, lima, lime, live, maid, mail, maim, midi, mild, mile, mill, mime, veil, vial, vied, vile
-5 letters (21): aided, ailed, aimed, alive, avail, devil, dived, elide, email, ideal, idled, iliad, ivied, limed, lived, livid, media, mimed, valid, villa, vivid
-6 letters (17): allied, diadem, dialed, diddle, dimmed, divide, eddied, elided, laddie, levied, lidded, mailed, maimed, medial, middle, milled, veiled
-7 letters (9): availed, dallied, deviled, diddled, dilemma, divided, divvied, emailed, limeade
-8 letters (1): medieval
+4 letters (22): cape, clap, epee, jape, jeep, keep, kelp, leap, pace, pack, pale, pall, palp, papa, peak, peal, peck, peek, peel, peep, peke, plea
+5 letters (7): apace, apple, kappa, lapel, papal, peace, place
+6 letters (6): alpaca, appall, appeal, paella, palace, palapa
+8 letters (1): appellee
+9 letters (1): applejack
 
 Alphabetical:
-aide     divide   livid
-aided    divided  maid
-ailed    divvied  mail
-aimed    eddied   mailed
-alive    elide    maim
-allied   elided   maimed
-amid     email    media
-avail    emailed  medial
-availed  evil     medieval
-avid     idea     middle
-dallied  ideal    midi
-deli     idle     mild
-devil    idled    mile
-deviled  iliad    mill
-diadem   imam     milled
-dial     ivied    mime
-dialed   laddie   mimed
-diddle   laid     valid
-diddled  levied   veil
-died     lidded   veiled
-dilemma  lied     vial
-dill     lima     vied
-dime     lime     vile
-dimmed   limeade  villa
-diva     limed    vivid
-dive     live
-dived    lived
+alpaca     keep    papal
+apace      kelp    peace
+appall     lapel   peak
+appeal     leap    peal
+appellee   pace    peck
+apple      pack    peek
+applejack  paella  peel
+cape       palace  peep
+clap       palapa  peke
+epee       pale    place
+jape       pall    plea
+jeep       palp
+kappa      papa
