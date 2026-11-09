@@ -1,47 +1,56 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-08
-Letters: palcejk
+Date: 2026-11-09
+Letters: taborhm
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: p, a, l, c, e, j, k (required: p)
-Total words: 37
+Letters: t, a, b, o, r, h, m (required: t)
+Total words: 63
 Pangrams: 1
 
 Pangrams (bolded):
-**applejack**
+**bathroom**
 BINGO
 
 Spelling Bee Grid:
-      |  4 | 5 | 6 | 8 | 9 | Total
-------+----+---+---+---+---+------
-A     |  0 | 2 | 3 | 1 | 1 |     7
-C     |  2 | 0 | 0 | 0 | 0 |     2
-E     |  1 | 0 | 0 | 0 | 0 |     1
-J     |  2 | 0 | 0 | 0 | 0 |     2
-K     |  2 | 1 | 0 | 0 | 0 |     3
-L     |  1 | 1 | 0 | 0 | 0 |     2
-P     | 14 | 3 | 3 | 0 | 0 |    20
-Total | 22 | 7 | 6 | 1 | 1 |    37
+      |  4 |  5 | 6 | 7 | 8 | 9 | Total
+------+----+----+---+---+---+---+------
+A     |  1 |  5 | 1 | 0 | 0 | 0 |     7
+B     |  6 |  2 | 1 | 1 | 1 | 0 |    11
+H     |  3 |  1 | 0 | 0 | 0 | 0 |     4
+M     |  5 |  2 | 2 | 2 | 0 | 1 |    12
+O     |  1 |  0 | 1 | 0 | 0 | 0 |     2
+R     |  2 |  2 | 0 | 2 | 0 | 0 |     6
+T     |  9 |  8 | 4 | 0 | 0 | 0 |    21
+Total | 27 | 20 | 9 | 5 | 1 | 1 |    63
 
 By length:
-4 letters (22): cape, clap, epee, jape, jeep, keep, kelp, leap, pace, pack, pale, pall, palp, papa, peak, peal, peck, peek, peel, peep, peke, plea
-5 letters (7): apace, apple, kappa, lapel, papal, peace, place
-6 letters (6): alpaca, appall, appeal, paella, palace, palapa
-8 letters (1): appellee
-9 letters (1): applejack
+4 letters (27): atom, baht, bath, boat, boot, both, brat, hart, hath, hoot, mart, math, moat, moot, moth, oath, root, roto, taro, tart, that, tomb, toot, toro, tort, tram, trot
+5 letters (20): abbot, abort, aorta, arhat, attar, booth, broth, hatha, motor, motto, robot, rotor, taboo, tabor, tarot, throb, tooth, torah, torta, troth
+6 letters (9): athrob, bottom, marmot, mortar, orator, tartar, tattoo, throat, tomato
+7 letters (5): bathmat, mahatma, mammoth, ratatat, rotator
+8 letters (1): bathroom
+9 letters (1): motorboat
 
 Alphabetical:
-alpaca     keep    papal
-apace      kelp    peace
-appall     lapel   peak
-appeal     leap    peal
-appellee   pace    peck
-apple      pack    peek
-applejack  paella  peel
-cape       palace  peep
-clap       palapa  peke
-epee       pale    place
-jape       pall    plea
-jeep       palp
-kappa      papa
+abbot     hoot       taboo
+abort     mahatma    tabor
+aorta     mammoth    taro
+arhat     marmot     tarot
+athrob    mart       tart
+atom      math       tartar
+attar     moat       tattoo
+baht      moot       that
+bath      mortar     throat
+bathmat   moth       throb
+bathroom  motor      tomato
+boat      motorboat  tomb
+boot      motto      toot
+booth     oath       tooth
+both      orator     torah
+bottom    ratatat    toro
+brat      robot      tort
+broth     root       torta
+hart      rotator    tram
+hath      roto       trot
+hatha     rotor      troth
