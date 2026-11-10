@@ -1,0 +1,59 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-10
+Letters: ideflop
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: i, d, e, f, l, o, p (required: i)
+Total words: 71
+Pangrams: 1
+
+Pangrams (bolded):
+**flipflopped**
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 |  6 |  7 | 8 | 11 | Total
+------+----+----+----+----+---+----+------
+D     |  3 |  2 |  5 |  5 | 0 |  0 |    15
+E     |  0 |  1 |  2 |  1 | 0 |  0 |     4
+F     |  6 |  6 |  5 |  3 | 1 |  1 |    22
+I     |  2 |  1 |  1 |  0 | 0 |  0 |     4
+L     |  3 |  1 |  3 |  0 | 1 |  0 |     8
+O     |  1 |  3 |  1 |  0 | 0 |  0 |     5
+P     |  5 |  4 |  3 |  1 | 0 |  0 |    13
+Total | 20 | 18 | 20 | 10 | 2 |  1 |    71
+
+By length:
+4 letters (20): deli, died, dill, fief, fife, file, fill, flip, foil, idle, idol, lied, life, lipo, olio, pied, pile, pill, pipe, plie
+5 letters (18): dildo, diode, elide, felid, field, fifed, filed, flied, folio, idled, lipid, oiled, oldie, ollie, piled, piped, plied, polio
+6 letters (20): defied, defile, diddle, dipole, dipped, eddied, elided, fiddle, filled, fillip, foiled, foodie, iodide, lidded, lipoid, lipped, opioid, piddle, piffle, pilled
+7 letters (10): defiled, deified, diddled, diploid, dollied, edified, fiddled, fielded, flipped, piddled
+8 letters (2): flipflop, lollipop
+11 letters (1): flipflopped
+
+Alphabetical:
+defied   fielded      lipid
+defile   fife         lipo
+defiled  fifed        lipoid
+deified  file         lipped
+deli     filed        lollipop
+diddle   fill         oiled
+diddled  filled       oldie
+died     fillip       olio
+dildo    flied        ollie
+dill     flip         opioid
+diode    flipflop     piddle
+diploid  flipflopped  piddled
+dipole   flipped      pied
+dipped   foil         piffle
+dollied  foiled       pile
+eddied   folio        piled
+edified  foodie       pill
+elide    idle         pilled
+elided   idled        pipe
+felid    idol         piped
+fiddle   iodide       plie
+fiddled  lidded       plied
+fief     lied         polio
+field    life
