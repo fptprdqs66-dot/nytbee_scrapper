@@ -1,0 +1,39 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-11
+Letters: vcietdu
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: v, c, i, e, t, d, u (required: v)
+Total words: 21
+Pangrams: 1
+
+Pangrams (bolded):
+**deductive**
+
+Spelling Bee Grid:
+      | 4 | 5 | 6 | 7 | 8 | 9 | Total
+------+---+---+---+---+---+---+------
+C     | 0 | 2 | 0 | 0 | 0 | 0 |     2
+D     | 1 | 2 | 2 | 3 | 1 | 2 |    11
+E     | 0 | 1 | 0 | 2 | 0 | 0 |     3
+I     | 0 | 1 | 0 | 0 | 0 | 0 |     1
+V     | 2 | 1 | 1 | 0 | 0 | 0 |     4
+Total | 3 | 7 | 3 | 5 | 1 | 2 |    21
+
+By length:
+4 letters (3): dive, vice, vied
+5 letters (7): civet, civic, dived, duvet, evict, ivied, vivid
+6 letters (3): device, divide, vetted
+7 letters (5): deceive, divided, divvied, evicted, evictee
+8 letters (1): deceived
+9 letters (2): deductive, detective
+
+Alphabetical:
+civet      dive     evicted
+civic      dived    evictee
+deceive    divide   ivied
+deceived   divided  vetted
+deductive  divvied  vice
+detective  duvet    vied
+device     evict    vivid
