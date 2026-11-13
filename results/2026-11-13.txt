@@ -1,0 +1,42 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-13
+Letters: cahoynp
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: c, a, h, o, y, n, p (required: c)
+Total words: 35
+Pangrams: 1
+
+Pangrams (bolded):
+**cacophony**
+
+Spelling Bee Grid:
+      | 4 |  5 |  6 | 9 | Total
+------+---+----+----+---+------
+A     | 1 |  2 |  0 | 0 |     3
+C     | 8 |  9 |  7 | 1 |    25
+H     | 0 |  1 |  1 | 0 |     2
+N     | 0 |  1 |  0 | 0 |     1
+P     | 0 |  2 |  2 | 0 |     4
+Total | 9 | 15 | 10 | 1 |    35
+
+By length:
+4 letters (9): achy, capo, chap, chop, coca, coho, coop, copy, cyan
+5 letters (15): achoo, ancho, cacao, canna, canny, canon, capon, coach, cocoa, conch, copay, hooch, nacho, poach, pooch
+6 letters (10): cancan, cannon, canopy, canyon, chancy, choppy, cocoon, honcho, papacy, poncho
+9 letters (1): cacophony
+
+Alphabetical:
+achoo      capo    coop
+achy       capon   copay
+ancho      chancy  copy
+cacao      chap    cyan
+cacophony  chop    honcho
+cancan     choppy  hooch
+canna      coach   nacho
+cannon     coca    papacy
+canny      cocoa   poach
+canon      cocoon  poncho
+canopy     coho    pooch
+canyon     conch
