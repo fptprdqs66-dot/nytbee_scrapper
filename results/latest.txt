@@ -1,42 +1,56 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-13
-Letters: cahoynp
+Date: 2026-11-14
+Letters: laingtz
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: c, a, h, o, y, n, p (required: c)
-Total words: 35
-Pangrams: 1
+Letters: l, a, i, n, g, t, z (required: l)
+Total words: 63
+Pangrams: 2
 
 Pangrams (bolded):
-**cacophony**
+**initializing**, **tantalizing**
 
 Spelling Bee Grid:
-      | 4 |  5 |  6 | 9 | Total
-------+---+----+----+---+------
-A     | 1 |  2 |  0 | 0 |     3
-C     | 8 |  9 |  7 | 1 |    25
-H     | 0 |  1 |  1 | 0 |     2
-N     | 0 |  1 |  0 | 0 |     1
-P     | 0 |  2 |  2 | 0 |     4
-Total | 9 | 15 | 10 | 1 |    35
+      |  4 | 5 | 6 |  7 |  8 | 10 | 11 | 12 | Total
+------+----+---+---+----+----+----+----+----+------
+A     |  3 | 4 | 1 |  1 |  1 |  0 |  0 |  0 |    10
+G     |  5 | 3 | 0 |  5 |  4 |  0 |  0 |  0 |    17
+I     |  0 | 0 | 0 |  1 |  0 |  1 |  0 |  1 |     3
+L     |  3 | 1 | 2 |  3 |  2 |  1 |  0 |  0 |    12
+N     |  1 | 1 | 0 |  1 |  1 |  0 |  0 |  0 |     4
+T     |  5 | 0 | 2 |  4 |  3 |  1 |  2 |  0 |    17
+Total | 17 | 9 | 5 | 15 | 11 |  3 |  2 |  1 |    63
 
 By length:
-4 letters (9): achy, capo, chap, chop, coca, coho, coop, copy, cyan
-5 letters (15): achoo, ancho, cacao, canna, canny, canon, capon, coach, cocoa, conch, copay, hooch, nacho, poach, pooch
-6 letters (10): cancan, cannon, canopy, canyon, chancy, choppy, cocoon, honcho, papacy, poncho
-9 letters (1): cacophony
+4 letters (17): alga, alit, anal, gala, gall, gill, gilt, glia, lain, lilt, lint, nail, tail, tali, tall, till, tilt
+5 letters (9): algal, align, annal, atilt, glial, glint, glitz, lanai, natal
+6 letters (5): ailing, lazing, lining, tallit, tiling
+7 letters (15): angling, gallant, galling, ganglia, gilling, glazing, initial, lagging, lantana, lilting, nailing, tailing, tilling, tilting, titling
+8 letters (11): aligning, galangal, gangling, giggling, glinting, ligating, litigant, niggling, tangling, tattling, tingling
+10 letters (3): initialing, litigating, tailgating
+11 letters (2): tantalizing, titillating
+12 letters (1): initializing
 
 Alphabetical:
-achoo      capo    coop
-achy       capon   copay
-ancho      chancy  copy
-cacao      chap    cyan
-cacophony  chop    honcho
-cancan     choppy  hooch
-canna      coach   nacho
-cannon     coca    papacy
-canny      cocoa   poach
-canon      cocoon  poncho
-canopy     coho    pooch
-canyon     conch
+ailing    glazing       nail
+alga      glia          nailing
+algal     glial         natal
+align     glint         niggling
+aligning  glinting      tail
+alit      glitz         tailgating
+anal      initial       tailing
+angling   initialing    tali
+annal     initializing  tall
+atilt     lagging       tallit
+gala      lain          tangling
+galangal  lanai         tantalizing
+gall      lantana       tattling
+gallant   lazing        tiling
+galling   ligating      till
+ganglia   lilt          tilling
+gangling  lilting       tilt
+giggling  lining        tilting
+gill      lint          tingling
+gilling   litigant      titillating
+gilt      litigating    titling
