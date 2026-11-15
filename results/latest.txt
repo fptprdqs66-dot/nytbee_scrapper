@@ -1,56 +1,44 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-14
-Letters: laingtz
+Date: 2026-11-15
+Letters: teloygp
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: l, a, i, n, g, t, z (required: l)
-Total words: 63
-Pangrams: 2
+Letters: t, e, l, o, y, g, p (required: t)
+Total words: 32
+Pangrams: 1
 
 Pangrams (bolded):
-**initializing**, **tantalizing**
+**logotype**
 
 Spelling Bee Grid:
-      |  4 | 5 | 6 |  7 |  8 | 10 | 11 | 12 | Total
-------+----+---+---+----+----+----+----+----+------
-A     |  3 | 4 | 1 |  1 |  1 |  0 |  0 |  0 |    10
-G     |  5 | 3 | 0 |  5 |  4 |  0 |  0 |  0 |    17
-I     |  0 | 0 | 0 |  1 |  0 |  1 |  0 |  1 |     3
-L     |  3 | 1 | 2 |  3 |  2 |  1 |  0 |  0 |    12
-N     |  1 | 1 | 0 |  1 |  1 |  0 |  0 |  0 |     4
-T     |  5 | 0 | 2 |  4 |  3 |  1 |  2 |  0 |    17
-Total | 17 | 9 | 5 | 15 | 11 |  3 |  2 |  1 |    63
+      |  4 | 5 | 6 | 7 | 8 | 9 | Total
+------+----+---+---+---+---+---+------
+E     |  0 | 0 | 1 | 0 | 0 | 0 |     1
+G     |  1 | 0 | 0 | 0 | 0 | 0 |     1
+L     |  1 | 1 | 0 | 0 | 1 | 0 |     3
+O     |  0 | 0 | 0 | 1 | 0 | 0 |     1
+P     |  3 | 2 | 3 | 0 | 1 | 0 |     9
+T     |  8 | 1 | 4 | 0 | 3 | 1 |    17
+Total | 13 | 4 | 8 | 1 | 5 | 1 |    32
 
 By length:
-4 letters (17): alga, alit, anal, gala, gall, gill, gilt, glia, lain, lilt, lint, nail, tail, tali, tall, till, tilt
-5 letters (9): algal, align, annal, atilt, glial, glint, glitz, lanai, natal
-6 letters (5): ailing, lazing, lining, tallit, tiling
-7 letters (15): angling, gallant, galling, ganglia, gilling, glazing, initial, lagging, lantana, lilting, nailing, tailing, tilling, tilting, titling
-8 letters (11): aligning, galangal, gangling, giggling, glinting, ligating, litigant, niggling, tangling, tattling, tingling
-10 letters (3): initialing, litigating, tailgating
-11 letters (2): tantalizing, titillating
-12 letters (1): initializing
+4 letters (13): gelt, loot, pelt, plot, poet, tell, toll, tool, toot, tope, tote, type, typo
+5 letters (4): lotto, petty, potty, tepee
+6 letters (8): eyelet, pellet, peyote, poppet, teepee, toggle, tootle, topple
+7 letters (1): otology
+8 letters (5): logotype, polyglot, teletype, topology, typology
+9 letters (1): teleology
 
 Alphabetical:
-ailing    glazing       nail
-alga      glia          nailing
-algal     glial         natal
-align     glint         niggling
-aligning  glinting      tail
-alit      glitz         tailgating
-anal      initial       tailing
-angling   initialing    tali
-annal     initializing  tall
-atilt     lagging       tallit
-gala      lain          tangling
-galangal  lanai         tantalizing
-gall      lantana       tattling
-gallant   lazing        tiling
-galling   ligating      till
-ganglia   lilt          tilling
-gangling  lilting       tilt
-giggling  lining        tilting
-gill      lint          tingling
-gilling   litigant      titillating
-gilt      litigating    titling
+eyelet    poet       tool
+gelt      polyglot   toot
+logotype  poppet     tootle
+loot      potty      tope
+lotto     teepee     topology
+otology   teleology  topple
+pellet    teletype   tote
+pelt      tell       type
+petty     tepee      typo
+peyote    toggle     typology
+plot      toll

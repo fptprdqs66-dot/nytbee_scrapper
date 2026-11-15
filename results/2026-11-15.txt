@@ -1,0 +1,44 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-15
+Letters: teloygp
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: t, e, l, o, y, g, p (required: t)
+Total words: 32
+Pangrams: 1
+
+Pangrams (bolded):
+**logotype**
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 7 | 8 | 9 | Total
+------+----+---+---+---+---+---+------
+E     |  0 | 0 | 1 | 0 | 0 | 0 |     1
+G     |  1 | 0 | 0 | 0 | 0 | 0 |     1
+L     |  1 | 1 | 0 | 0 | 1 | 0 |     3
+O     |  0 | 0 | 0 | 1 | 0 | 0 |     1
+P     |  3 | 2 | 3 | 0 | 1 | 0 |     9
+T     |  8 | 1 | 4 | 0 | 3 | 1 |    17
+Total | 13 | 4 | 8 | 1 | 5 | 1 |    32
+
+By length:
+4 letters (13): gelt, loot, pelt, plot, poet, tell, toll, tool, toot, tope, tote, type, typo
+5 letters (4): lotto, petty, potty, tepee
+6 letters (8): eyelet, pellet, peyote, poppet, teepee, toggle, tootle, topple
+7 letters (1): otology
+8 letters (5): logotype, polyglot, teletype, topology, typology
+9 letters (1): teleology
+
+Alphabetical:
+eyelet    poet       tool
+gelt      polyglot   toot
+logotype  poppet     tootle
+loot      potty      tope
+lotto     teepee     topology
+otology   teleology  topple
+pellet    teletype   tote
+pelt      tell       type
+petty     tepee      typo
+peyote    toggle     typology
+plot      toll
