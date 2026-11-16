@@ -1,0 +1,38 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-16
+Letters: caipryv
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: c, a, i, p, r, y, v (required: c)
+Total words: 23
+Pangrams: 1 (perfect: 1)
+
+Pangrams (bolded):
+**privacy**
+
+Spelling Bee Grid:
+      | 4 |  5 | 6 | 7 | Total
+------+---+----+---+---+------
+A     | 1 |  0 | 1 | 0 |     2
+C     | 3 |  7 | 2 | 0 |    12
+P     | 1 |  1 | 2 | 2 |     6
+R     | 1 |  0 | 0 | 0 |     1
+V     | 0 |  2 | 0 | 0 |     2
+Total | 6 | 10 | 5 | 2 |    23
+
+By length:
+4 letters (6): acai, carp, cava, crap, pica, racy
+5 letters (10): capri, carpi, carry, circa, cirri, civic, civvy, pricy, vacay, vicar
+6 letters (5): acacia, caviar, crappy, papacy, piracy
+7 letters (2): priapic, privacy
+
+Alphabetical:
+acacia  circa   piracy
+acai    cirri   priapic
+capri   civic   pricy
+carp    civvy   privacy
+carpi   crap    racy
+carry   crappy  vacay
+cava    papacy  vicar
+caviar  pica
