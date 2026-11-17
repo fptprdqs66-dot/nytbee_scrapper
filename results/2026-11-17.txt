@@ -1,0 +1,49 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-17
+Letters: ohiplyn
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: o, h, i, p, l, y, n (required: o)
+Total words: 47
+Pangrams: 1 (perfect: 1)
+
+Pangrams (bolded):
+**phonily**
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 7 | 8 | 9 | Total
+------+----+----+---+---+---+---+------
+H     |  3 |  3 | 0 | 0 | 0 | 0 |     6
+L     |  6 |  2 | 1 | 1 | 1 | 0 |    11
+N     |  1 |  1 | 0 | 0 | 0 | 1 |     3
+O     |  3 |  1 | 1 | 1 | 0 | 0 |     6
+P     |  8 |  6 | 3 | 2 | 0 | 1 |    20
+Y     |  0 |  0 | 1 | 0 | 0 | 0 |     1
+Total | 21 | 13 | 6 | 4 | 1 | 2 |    47
+
+By length:
+4 letters (21): holy, hoop, hypo, lion, lipo, loin, loll, loon, loop, noon, oily, olio, only, plop, ploy, poll, polo, pony, pooh, pool, poop
+5 letters (13): hippo, holly, hoppy, loony, loopy, nylon, onion, phono, phony, polio, polyp, poppy, pylon
+6 letters (6): lollop, oniony, phyllo, pinion, poplin, yoohoo
+7 letters (4): loopily, opinion, phonily, pillion
+8 letters (1): lollipop
+9 letters (2): nonillion, polyphony
+
+Alphabetical:
+hippo     loopy      plop
+holly     nonillion  ploy
+holy      noon       polio
+hoop      nylon      poll
+hoppy     oily       polo
+hypo      olio       polyp
+lion      onion      polyphony
+lipo      oniony     pony
+loin      only       pooh
+loll      opinion    pool
+lollipop  phonily    poop
+lollop    phono      poplin
+loon      phony      poppy
+loony     phyllo     pylon
+loop      pillion    yoohoo
+loopily   pinion

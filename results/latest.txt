@@ -1,38 +1,49 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-16
-Letters: caipryv
+Date: 2026-11-17
+Letters: ohiplyn
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: c, a, i, p, r, y, v (required: c)
-Total words: 23
+Letters: o, h, i, p, l, y, n (required: o)
+Total words: 47
 Pangrams: 1 (perfect: 1)
 
 Pangrams (bolded):
-**privacy**
+**phonily**
 
 Spelling Bee Grid:
-      | 4 |  5 | 6 | 7 | Total
-------+---+----+---+---+------
-A     | 1 |  0 | 1 | 0 |     2
-C     | 3 |  7 | 2 | 0 |    12
-P     | 1 |  1 | 2 | 2 |     6
-R     | 1 |  0 | 0 | 0 |     1
-V     | 0 |  2 | 0 | 0 |     2
-Total | 6 | 10 | 5 | 2 |    23
+      |  4 |  5 | 6 | 7 | 8 | 9 | Total
+------+----+----+---+---+---+---+------
+H     |  3 |  3 | 0 | 0 | 0 | 0 |     6
+L     |  6 |  2 | 1 | 1 | 1 | 0 |    11
+N     |  1 |  1 | 0 | 0 | 0 | 1 |     3
+O     |  3 |  1 | 1 | 1 | 0 | 0 |     6
+P     |  8 |  6 | 3 | 2 | 0 | 1 |    20
+Y     |  0 |  0 | 1 | 0 | 0 | 0 |     1
+Total | 21 | 13 | 6 | 4 | 1 | 2 |    47
 
 By length:
-4 letters (6): acai, carp, cava, crap, pica, racy
-5 letters (10): capri, carpi, carry, circa, cirri, civic, civvy, pricy, vacay, vicar
-6 letters (5): acacia, caviar, crappy, papacy, piracy
-7 letters (2): priapic, privacy
+4 letters (21): holy, hoop, hypo, lion, lipo, loin, loll, loon, loop, noon, oily, olio, only, plop, ploy, poll, polo, pony, pooh, pool, poop
+5 letters (13): hippo, holly, hoppy, loony, loopy, nylon, onion, phono, phony, polio, polyp, poppy, pylon
+6 letters (6): lollop, oniony, phyllo, pinion, poplin, yoohoo
+7 letters (4): loopily, opinion, phonily, pillion
+8 letters (1): lollipop
+9 letters (2): nonillion, polyphony
 
 Alphabetical:
-acacia  circa   piracy
-acai    cirri   priapic
-capri   civic   pricy
-carp    civvy   privacy
-carpi   crap    racy
-carry   crappy  vacay
-cava    papacy  vicar
-caviar  pica
+hippo     loopy      plop
+holly     nonillion  ploy
+holy      noon       polio
+hoop      nylon      poll
+hoppy     oily       polo
+hypo      olio       polyp
+lion      onion      polyphony
+lipo      oniony     pony
+loin      only       pooh
+loll      opinion    pool
+lollipop  phonily    poop
+lollop    phono      poplin
+loon      phony      poppy
+loony     phyllo     pylon
+loop      pillion    yoohoo
+loopily   pinion
