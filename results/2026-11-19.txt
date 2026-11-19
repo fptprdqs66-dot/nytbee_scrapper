@@ -1,0 +1,48 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-19
+Letters: kcluedn
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: k, c, l, u, e, d, n (required: k)
+Total words: 41
+Pangrams: 2 (perfect: 1)
+
+Pangrams (bolded):
+**clunked**, **knuckled**
+BINGO
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 7 | 8 | Total
+------+----+---+---+---+---+------
+C     |  1 | 2 | 0 | 2 | 0 |     5
+D     |  5 | 2 | 4 | 0 | 0 |    11
+E     |  1 | 0 | 0 | 0 | 0 |     1
+K     |  4 | 3 | 3 | 3 | 2 |    15
+L     |  3 | 0 | 1 | 0 | 0 |     4
+N     |  2 | 1 | 1 | 0 | 0 |     4
+U     |  0 | 0 | 0 | 1 | 0 |     1
+Total | 16 | 8 | 9 | 6 | 2 |    41
+
+By length:
+4 letters (16): cuke, deck, deke, duck, duke, dunk, eked, keel, keen, knee, kudu, leek, luck, lunk, neck, nuke
+5 letters (8): cluck, clunk, deked, duked, kneed, kneel, knell, nuked
+6 letters (9): decked, deckle, ducked, dunked, keeled, keened, kennel, lucked, necked
+7 letters (6): clucked, clunked, kneeled, knelled, knuckle, ukulele
+8 letters (2): kenneled, knuckled
+
+Alphabetical:
+cluck    dunk      knelled
+clucked  dunked    knuckle
+clunk    eked      knuckled
+clunked  keel      kudu
+cuke     keeled    leek
+deck     keen      luck
+decked   keened    lucked
+deckle   kennel    lunk
+deke     kenneled  neck
+deked    knee      necked
+duck     kneed     nuke
+ducked   kneel     nuked
+duke     kneeled   ukulele
+duked    knell

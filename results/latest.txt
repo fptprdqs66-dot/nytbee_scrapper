@@ -1,55 +1,48 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-18
-Letters: dignoru
+Date: 2026-11-19
+Letters: kcluedn
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: d, i, g, n, o, r, u (required: d)
-Total words: 59
-Pangrams: 2
+Letters: k, c, l, u, e, d, n (required: k)
+Total words: 41
+Pangrams: 2 (perfect: 1)
 
 Pangrams (bolded):
-**grounding**, **rounding**
+**clunked**, **knuckled**
 BINGO
 
 Spelling Bee Grid:
-      |  4 |  5 | 6 |  7 | 8 | 9 | Total
-------+----+----+---+----+---+---+------
-D     |  8 |  7 | 4 |  7 | 1 | 0 |    27
-G     |  3 |  2 | 1 |  2 | 3 | 1 |    12
-I     |  0 |  0 | 2 |  0 | 0 | 0 |     2
-N     |  0 |  0 | 0 |  2 | 1 | 0 |     3
-O     |  1 |  0 | 0 |  0 | 0 | 0 |     1
-R     |  2 |  3 | 1 |  2 | 1 | 0 |     9
-U     |  2 |  1 | 0 |  1 | 1 | 0 |     5
-Total | 16 | 13 | 8 | 14 | 7 | 1 |    59
+      |  4 | 5 | 6 | 7 | 8 | Total
+------+----+---+---+---+---+------
+C     |  1 | 2 | 0 | 2 | 0 |     5
+D     |  5 | 2 | 4 | 0 | 0 |    11
+E     |  1 | 0 | 0 | 0 | 0 |     1
+K     |  4 | 3 | 3 | 3 | 2 |    15
+L     |  3 | 0 | 1 | 0 | 0 |     4
+N     |  2 | 1 | 1 | 0 | 0 |     4
+U     |  0 | 0 | 0 | 1 | 0 |     1
+Total | 16 | 8 | 9 | 6 | 2 |    41
 
 By length:
-4 letters (16): ding, dino, dodo, dong, door, dour, drug, dung, gird, good, grid, odor, rind, rood, udon, undo
-5 letters (13): dingo, doggo, doing, donor, droid, druid, dunno, gourd, grind, rigid, rondo, round, undid
-6 letters (8): dining, duding, dugong, during, ground, indigo, indoor, riding
-7 letters (14): digging, dinging, dodging, dogging, donning, droning, dunning, girding, guiding, nodding, nudging, ridding, ridging, undoing
-8 letters (7): drugging, gridiron, grinding, grudging, noodging, rounding, unground
-9 letters (1): grounding
+4 letters (16): cuke, deck, deke, duck, duke, dunk, eked, keel, keen, knee, kudu, leek, luck, lunk, neck, nuke
+5 letters (8): cluck, clunk, deked, duked, kneed, kneel, knell, nuked
+6 letters (9): decked, deckle, ducked, dunked, keeled, keened, kennel, lucked, necked
+7 letters (6): clucked, clunked, kneeled, knelled, knuckle, ukulele
+8 letters (2): kenneled, knuckled
 
 Alphabetical:
-digging   druid      indoor
-ding      duding     nodding
-dinging   dugong     noodging
-dingo     dung       nudging
-dining    dunning    odor
-dino      dunno      ridding
-dodging   during     ridging
-dodo      gird       riding
-dogging   girding    rigid
-doggo     good       rind
-doing     gourd      rondo
-dong      grid       rood
-donning   gridiron   round
-donor     grind      rounding
-door      grinding   udon
-dour      ground     undid
-droid     grounding  undo
-droning   grudging   undoing
-drug      guiding    unground
-drugging  indigo
+cluck    dunk      knelled
+clucked  dunked    knuckle
+clunk    eked      knuckled
+clunked  keel      kudu
+cuke     keeled    leek
+deck     keen      luck
+decked   keened    lucked
+deckle   kennel    lunk
+deke     kenneled  neck
+deked    knee      necked
+duck     kneed     nuke
+ducked   kneel     nuked
+duke     kneeled   ukulele
+duked    knell
