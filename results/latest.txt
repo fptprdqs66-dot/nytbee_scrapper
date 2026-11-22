@@ -1,57 +1,52 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-21
-Letters: oailmnr
+Date: 2026-11-22
+Letters: haedtpo
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: o, a, i, l, m, n, r (required: o)
-Total words: 65
-Pangrams: 2
+Letters: h, a, e, d, t, p, o (required: h)
+Total words: 52
+Pangrams: 1 (perfect: 1)
 
 Pangrams (bolded):
-**manorial**, **monorail**
-BINGO
+**pothead**
 
 Spelling Bee Grid:
-      |  4 |  5 | 6 | 7 | 8 | 9 | Total
-------+----+----+---+---+---+---+------
-A     |  2 |  6 | 1 | 1 | 1 | 0 |    11
-I     |  1 |  0 | 0 | 2 | 0 | 0 |     3
-L     |  8 |  1 | 0 | 1 | 0 | 0 |    10
-M     |  7 |  7 | 4 | 1 | 4 | 1 |    24
-N     |  4 |  0 | 1 | 1 | 0 | 1 |     7
-O     |  2 |  1 | 1 | 0 | 0 | 0 |     4
-R     |  6 |  0 | 0 | 0 | 0 | 0 |     6
-Total | 30 | 15 | 7 | 6 | 5 | 2 |    65
+      |  4 |  5 |  6 | 7 | 8 | 9 | 10 | Total
+------+----+----+----+---+---+---+----+------
+A     |  0 |  1 |  0 | 0 | 0 | 0 |  0 |     1
+D     |  1 |  3 |  0 | 0 | 1 | 0 |  1 |     6
+H     | 11 |  5 | 12 | 1 | 0 | 1 |  0 |    30
+O     |  2 |  0 |  0 | 0 | 0 | 0 |  0 |     2
+P     |  3 |  1 |  0 | 1 | 0 | 0 |  0 |     5
+T     |  2 |  3 |  1 | 2 | 0 | 0 |  0 |     8
+Total | 19 | 13 | 13 | 4 | 1 | 1 |  1 |    52
 
 By length:
-4 letters (30): ammo, anon, iron, limo, lion, loam, loan, loin, loll, loom, loon, moan, moil, moll, mono, moon, moor, morn, noir, noon, nori, norm, olio, oral, roam, roan, roar, roil, roll, room
-5 letters (15): aioli, amino, amnio, anion, armor, aroma, llano, manor, minor, molar, momma, moola, moral, moron, onion
-6 letters (7): amoral, mammon, maroon, minion, mirror, normal, oilman
-7 letters (6): ammonia, immoral, ironman, lanolin, million, nominal
-8 letters (5): armorial, mailroom, manorial, monomial, monorail
-9 letters (2): monomania, nonillion
+4 letters (19): doth, hate, hath, head, heap, heat, heed, hoed, hood, hoop, hoot, hope, oath, opah, path, phat, pooh, that, thee
+5 letters (13): ahead, death, depth, doeth, hated, hatha, heath, hodad, hoped, photo, teeth, theta, tooth
+6 letters (13): hatted, headed, heaped, heated, heeded, heptad, hooded, hoodoo, hooped, hooted, hopped, hotpot, teethe
+7 letters (4): hothead, pothead, teethed, toothed
+8 letters (1): deadhead
+9 letters (1): hotheaded
+10 letters (1): deadheaded
 
 Alphabetical:
-aioli     loom       moor
-amino     loon       moral
-ammo      mailroom   morn
-ammonia   mammon     moron
-amnio     manor      noir
-amoral    manorial   nominal
-anion     maroon     nonillion
-anon      million    noon
-armor     minion     nori
-armorial  minor      norm
-aroma     mirror     normal
-immoral   moan       oilman
-iron      moil       olio
-ironman   molar      onion
-lanolin   moll       oral
-limo      momma      roam
-lion      mono       roan
-llano     monomania  roar
-loam      monomial   roil
-loan      monorail   roll
-loin      moola      room
-loll      moon
+ahead       heath      hotpot
+deadhead    heed       oath
+deadheaded  heeded     opah
+death       heptad     path
+depth       hodad      phat
+doeth       hoed       photo
+doth        hood       pooh
+hate        hooded     pothead
+hated       hoodoo     teeth
+hath        hoop       teethe
+hatha       hooped     teethed
+hatted      hoot       that
+head        hooted     thee
+headed      hope       theta
+heap        hoped      tooth
+heaped      hopped     toothed
+heat        hothead
+heated      hotheaded
