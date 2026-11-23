@@ -1,0 +1,43 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-23
+Letters: rajlmoy
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: r, a, j, l, m, o, y (required: r)
+Total words: 35
+Pangrams: 1 (perfect: 1)
+
+Pangrams (bolded):
+**majorly**
+
+Spelling Bee Grid:
+      |  4 |  5 | 6 | 7 | 8 | Total
+------+----+----+---+---+---+------
+A     |  2 |  4 | 3 | 0 | 1 |    10
+L     |  0 |  1 | 0 | 0 | 0 |     1
+M     |  2 |  6 | 0 | 4 | 1 |    13
+O     |  1 |  0 | 1 | 0 | 0 |     2
+R     |  5 |  3 | 0 | 1 | 0 |     9
+Total | 10 | 14 | 4 | 5 | 2 |    35
+
+By length:
+4 letters (10): ajar, army, marm, moor, oral, raja, roam, roar, roll, room
+5 letters (14): alarm, armor, aroma, array, lorry, major, marry, mayor, molar, moral, moray, rally, roomy, royal
+6 letters (4): amoral, armory, arroyo, orally
+7 letters (5): majorly, mammary, mayoral, morally, royally
+8 letters (2): amorally, marjoram
+
+Alphabetical:
+ajar      majorly   oral
+alarm     mammary   orally
+amoral    marjoram  raja
+amorally  marm      rally
+armor     marry     roam
+armory    mayor     roar
+army      mayoral   roll
+aroma     molar     room
+array     moor      roomy
+arroyo    moral     royal
+lorry     morally   royally
+major     moray
