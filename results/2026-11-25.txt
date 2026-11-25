@@ -1,0 +1,37 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-25
+Letters: ibknump
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: i, b, k, n, u, m, p (required: i)
+Total words: 17
+Pangrams: 1 (perfect: 1)
+
+Pangrams (bolded):
+**bumpkin**
+
+Spelling Bee Grid:
+      | 4 | 5 | 6 | 7 | Total
+------+---+---+---+---+------
+B     | 0 | 0 | 1 | 1 |     2
+K     | 1 | 0 | 0 | 0 |     1
+M     | 3 | 1 | 0 | 1 |     5
+N     | 0 | 1 | 1 | 0 |     2
+P     | 2 | 1 | 1 | 1 |     5
+U     | 0 | 1 | 1 | 0 |     2
+Total | 6 | 4 | 4 | 3 |    17
+
+By length:
+4 letters (6): kink, mini, mink, muni, pimp, pink
+5 letters (4): minim, nimbi, pinup, unpin
+6 letters (4): bikini, nubbin, pippin, unkink
+7 letters (3): bumpkin, minimum, pumpkin
+
+Alphabetical:
+bikini   mink    pinup
+bumpkin  muni    pippin
+kink     nimbi   pumpkin
+mini     nubbin  unkink
+minim    pimp    unpin
+minimum  pink

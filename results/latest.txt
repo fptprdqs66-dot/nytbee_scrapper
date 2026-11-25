@@ -1,54 +1,37 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-24
-Letters: acituly
+Date: 2026-11-25
+Letters: ibknump
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: a, c, i, t, u, l, y (required: a)
-Total words: 56
-Pangrams: 1
+Letters: i, b, k, n, u, m, p (required: i)
+Total words: 17
+Pangrams: 1 (perfect: 1)
 
 Pangrams (bolded):
-**actuality**
+**bumpkin**
 
 Spelling Bee Grid:
-      |  4 |  5 | 6 | 7 | 8 | 9 | 10 | 13 | Total
-------+----+----+---+---+---+---+----+----+------
-A     |  3 |  3 | 3 | 1 | 1 | 1 |  0 |  0 |    12
-C     |  3 |  4 | 0 | 4 | 1 | 1 |  1 |  1 |    15
-I     |  0 |  1 | 1 | 0 | 0 | 0 |  0 |  0 |     2
-L     |  3 |  2 | 2 | 0 | 1 | 0 |  0 |  0 |     8
-T     |  6 |  3 | 3 | 2 | 1 | 1 |  1 |  0 |    17
-Y     |  1 |  1 | 0 | 0 | 0 | 0 |  0 |  0 |     2
-Total | 16 | 14 | 9 | 7 | 4 | 3 |  2 |  1 |    56
+      | 4 | 5 | 6 | 7 | Total
+------+---+---+---+---+------
+B     | 0 | 0 | 1 | 1 |     2
+K     | 1 | 0 | 0 | 0 |     1
+M     | 3 | 1 | 0 | 1 |     5
+N     | 0 | 1 | 1 | 0 |     2
+P     | 2 | 1 | 1 | 1 |     5
+U     | 0 | 1 | 1 | 0 |     2
+Total | 6 | 4 | 4 | 3 |    17
 
 By length:
-4 letters (16): acai, alit, ally, call, caul, clay, lacy, laic, luau, tact, tail, talc, tali, tall, taut, yuca
-5 letters (14): allay, atilt, attic, cacti, calla, catty, cilia, iliac, laity, lilac, tacit, tally, tatty, yucca
-6 letters (9): acacia, actual, acuity, italic, lactic, laical, tactic, tallit, tautly
-7 letters (7): acyclic, calculi, catcall, cattail, cattily, tacitly, tactual
-8 letters (4): actually, cyclical, laically, tactical
-9 letters (3): actuality, catalytic, tactility
-10 letters (2): cyclically, tactically
-13 letters (1): catalytically
+4 letters (6): kink, mini, mink, muni, pimp, pink
+5 letters (4): minim, nimbi, pinup, unpin
+6 letters (4): bikini, nubbin, pippin, unkink
+7 letters (3): bumpkin, minimum, pumpkin
 
 Alphabetical:
-acacia         cattail     tacitly
-acai           cattily     tact
-actual         catty       tactic
-actuality      caul        tactical
-actually       cilia       tactically
-acuity         clay        tactility
-acyclic        cyclical    tactual
-alit           cyclically  tail
-allay          iliac       talc
-ally           italic      tali
-atilt          lactic      tall
-attic          lacy        tallit
-cacti          laic        tally
-calculi        laical      tatty
-call           laically    taut
-calla          laity       tautly
-catalytic      lilac       yuca
-catalytically  luau        yucca
-catcall        tacit
+bikini   mink    pinup
+bumpkin  muni    pippin
+kink     nimbi   pumpkin
+mini     nubbin  unkink
+minim    pimp    unpin
+minimum  pink
