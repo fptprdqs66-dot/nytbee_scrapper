@@ -1,0 +1,56 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-26
+Letters: acingrv
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: a, c, i, n, g, r, v (required: a)
+Total words: 68
+Pangrams: 0
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 |  6 |  7 | 8 | 9 | 10 | Total
+------+----+----+----+----+---+---+----+------
+A     |  3 |  4 |  6 |  1 | 3 | 1 |  1 |    19
+C     |  2 |  4 |  7 |  2 | 0 | 0 |  0 |    15
+G     |  4 |  1 |  0 |  4 | 2 | 0 |  0 |    11
+I     |  0 |  0 |  0 |  1 | 0 | 0 |  1 |     2
+N     |  3 |  0 |  1 |  2 | 0 | 0 |  0 |     6
+R     |  4 |  0 |  4 |  3 | 1 | 0 |  0 |    12
+V     |  1 |  1 |  1 |  0 | 0 | 0 |  0 |     3
+Total | 17 | 10 | 19 | 13 | 6 | 1 |  2 |    68
+
+By length:
+4 letters (17): acai, agar, aria, cava, crag, gaga, gain, gang, gran, naan, nana, narc, raga, rain, rang, rani, vain
+5 letters (10): acing, again, aging, avian, cairn, canna, cigar, circa, grain, vicar
+6 letters (19): acacia, airing, angina, arcana, arcing, arnica, caging, cancan, caning, caring, caviar, caving, crania, niacin, racing, raging, raring, raving, vagina
+7 letters (13): arraign, canning, craning, gagging, gaining, ganging, gracing, ingrain, nagging, nirvana, ragging, raining, ranging
+8 letters (6): agrarian, arancini, arriving, garaging, graining, ravaging
+9 letters (1): arranging
+10 letters (2): arraigning, ingraining
+
+Alphabetical:
+acacia      canna     ingraining
+acai        canning   naan
+acing       caring    nagging
+again       cava      nana
+agar        caviar    narc
+aging       caving    niacin
+agrarian    cigar     nirvana
+airing      circa     racing
+angina      crag      raga
+arancini    crania    ragging
+arcana      craning   raging
+arcing      gaga      rain
+aria        gagging   raining
+arnica      gain      rang
+arraign     gaining   ranging
+arraigning  gang      rani
+arranging   ganging   raring
+arriving    garaging  ravaging
+avian       gracing   raving
+caging      grain     vagina
+cairn       graining  vain
+cancan      gran      vicar
+caning      ingrain
