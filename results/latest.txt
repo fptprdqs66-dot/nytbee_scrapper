@@ -1,56 +1,45 @@
 NYT Spelling Bee Daily Results
-Date: 2026-11-26
-Letters: acingrv
+Date: 2026-11-27
+Letters: uepaltf
 
 NYT Spelling Bee Hint Page
 ------------------------------
-Letters: a, c, i, n, g, r, v (required: a)
-Total words: 68
-Pangrams: 0
-BINGO
+Letters: u, e, p, a, l, t, f (required: u)
+Total words: 37
+Pangrams: 1
+
+Pangrams (bolded):
+**plateful**
 
 Spelling Bee Grid:
-      |  4 |  5 |  6 |  7 | 8 | 9 | 10 | Total
-------+----+----+----+----+---+---+----+------
-A     |  3 |  4 |  6 |  1 | 3 | 1 |  1 |    19
-C     |  2 |  4 |  7 |  2 | 0 | 0 |  0 |    15
-G     |  4 |  1 |  0 |  4 | 2 | 0 |  0 |    11
-I     |  0 |  0 |  0 |  1 | 0 | 0 |  1 |     2
-N     |  3 |  0 |  1 |  2 | 0 | 0 |  0 |     6
-R     |  4 |  0 |  4 |  3 | 1 | 0 |  0 |    12
-V     |  1 |  1 |  1 |  0 | 0 | 0 |  0 |     3
-Total | 17 | 10 | 19 | 13 | 6 | 1 |  2 |    68
+      |  4 | 5 | 6 | 7 | 8 | Total
+------+----+---+---+---+---+------
+E     |  0 | 0 | 0 | 1 | 0 |     1
+F     |  3 | 3 | 1 | 1 | 0 |     8
+L     |  5 | 1 | 1 | 0 | 0 |     7
+P     |  6 | 2 | 3 | 1 | 1 |    13
+T     |  3 | 3 | 1 | 0 | 0 |     7
+U     |  0 | 0 | 0 | 1 | 0 |     1
+Total | 17 | 9 | 6 | 4 | 1 |    37
 
 By length:
-4 letters (17): acai, agar, aria, cava, crag, gaga, gain, gang, gran, naan, nana, narc, raga, rain, rang, rani, vain
-5 letters (10): acing, again, aging, avian, cairn, canna, cigar, circa, grain, vicar
-6 letters (19): acacia, airing, angina, arcana, arcing, arnica, caging, cancan, caning, caring, caviar, caving, crania, niacin, racing, raging, raring, raving, vagina
-7 letters (13): arraign, canning, craning, gagging, gaining, ganging, gracing, ingrain, nagging, nirvana, ragging, raining, ranging
-8 letters (6): agrarian, arancini, arriving, garaging, graining, ravaging
-9 letters (1): arranging
-10 letters (2): arraigning, ingraining
+4 letters (17): flue, fuel, full, luau, luff, lull, lulu, lute, puff, pule, pull, pulp, pupa, putt, taut, tuft, tutu
+5 letters (9): fault, fluff, flute, letup, pupae, pupal, taupe, tulle, tutee
+6 letters (6): flauta, luteal, pullet, pupate, puppet, tuffet
+7 letters (4): epaulet, fateful, plateau, ululate
+8 letters (1): plateful
 
 Alphabetical:
-acacia      canna     ingraining
-acai        canning   naan
-acing       caring    nagging
-again       cava      nana
-agar        caviar    narc
-aging       caving    niacin
-agrarian    cigar     nirvana
-airing      circa     racing
-angina      crag      raga
-arancini    crania    ragging
-arcana      craning   raging
-arcing      gaga      rain
-aria        gagging   raining
-arnica      gain      rang
-arraign     gaining   ranging
-arraigning  gang      rani
-arranging   ganging   raring
-arriving    garaging  ravaging
-avian       gracing   raving
-caging      grain     vagina
-cairn       graining  vain
-cancan      gran      vicar
-caning      ingrain
+epaulet  lulu      pupate
+fateful  lute      puppet
+fault    luteal    putt
+flauta   plateau   taupe
+flue     plateful  taut
+fluff    puff      tuffet
+flute    pule      tuft
+fuel     pull      tulle
+full     pullet    tutee
+letup    pulp      tutu
+luau     pupa      ululate
+luff     pupae
+lull     pupal

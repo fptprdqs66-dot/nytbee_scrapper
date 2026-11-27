@@ -1,0 +1,45 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-27
+Letters: uepaltf
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: u, e, p, a, l, t, f (required: u)
+Total words: 37
+Pangrams: 1
+
+Pangrams (bolded):
+**plateful**
+
+Spelling Bee Grid:
+      |  4 | 5 | 6 | 7 | 8 | Total
+------+----+---+---+---+---+------
+E     |  0 | 0 | 0 | 1 | 0 |     1
+F     |  3 | 3 | 1 | 1 | 0 |     8
+L     |  5 | 1 | 1 | 0 | 0 |     7
+P     |  6 | 2 | 3 | 1 | 1 |    13
+T     |  3 | 3 | 1 | 0 | 0 |     7
+U     |  0 | 0 | 0 | 1 | 0 |     1
+Total | 17 | 9 | 6 | 4 | 1 |    37
+
+By length:
+4 letters (17): flue, fuel, full, luau, luff, lull, lulu, lute, puff, pule, pull, pulp, pupa, putt, taut, tuft, tutu
+5 letters (9): fault, fluff, flute, letup, pupae, pupal, taupe, tulle, tutee
+6 letters (6): flauta, luteal, pullet, pupate, puppet, tuffet
+7 letters (4): epaulet, fateful, plateau, ululate
+8 letters (1): plateful
+
+Alphabetical:
+epaulet  lulu      pupate
+fateful  lute      puppet
+fault    luteal    putt
+flauta   plateau   taupe
+flue     plateful  taut
+fluff    puff      tuffet
+flute    pule      tuft
+fuel     pull      tulle
+full     pullet    tutee
+letup    pulp      tutu
+luau     pupa      ululate
+luff     pupae
+lull     pupal
