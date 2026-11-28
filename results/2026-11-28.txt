@@ -1,0 +1,58 @@
+NYT Spelling Bee Daily Results
+Date: 2026-11-28
+Letters: ncoedij
+
+NYT Spelling Bee Hint Page
+------------------------------
+Letters: n, c, o, e, d, i, j (required: n)
+Total words: 64
+Pangrams: 1
+
+Pangrams (bolded):
+**conjoined**
+BINGO
+
+Spelling Bee Grid:
+      |  4 |  5 |  6 | 7 | 8 | 9 | 11 | Total
+------+----+----+----+---+---+---+----+------
+C     |  2 |  4 |  3 | 4 | 4 | 2 |  1 |    20
+D     |  3 |  3 |  3 | 0 | 0 | 0 |  0 |     9
+E     |  0 |  1 |  3 | 1 | 1 | 0 |  0 |     6
+I     |  1 |  3 |  3 | 0 | 0 | 2 |  0 |     9
+J     |  2 |  1 |  1 | 0 | 0 | 0 |  0 |     4
+N     |  8 |  2 |  3 | 0 | 0 | 0 |  0 |    13
+O     |  1 |  2 |  0 | 0 | 0 | 0 |  0 |     3
+Total | 17 | 16 | 16 | 5 | 5 | 4 |  1 |    64
+
+By length:
+4 letters (17): coin, cone, dine, dino, done, icon, jinn, join, need, nene, neon, nice, nine, node, none, noon, once
+5 letters (16): codon, condo, coned, conic, dined, djinn, donee, ended, indie, innie, ionic, jinni, niece, nonce, odeon, onion
+6 letters (16): cocoon, coined, conned, denied, djinni, donned, edenic, encode, enjoin, iconic, indeed, iodine, joined, needed, neocon, nodded
+7 letters (5): codeine, concede, condone, conjoin, encoded
+8 letters (5): cocooned, coincide, conceded, condoned, enjoined
+9 letters (4): coincided, conjoined, incidence, innocence
+11 letters (1): coincidence
+
+Alphabetical:
+cocoon       dined      jinn
+cocooned     dino       jinni
+codeine      djinn      join
+codon        djinni     joined
+coin         done       need
+coincide     donee      needed
+coincided    donned     nene
+coincidence  edenic     neocon
+coined       encode     neon
+concede      encoded    nice
+conceded     ended      niece
+condo        enjoin     nine
+condone      enjoined   nodded
+condoned     icon       node
+cone         iconic     nonce
+coned        incidence  none
+conic        indeed     noon
+conjoin      indie      odeon
+conjoined    innie      once
+conned       innocence  onion
+denied       iodine
+dine         ionic
